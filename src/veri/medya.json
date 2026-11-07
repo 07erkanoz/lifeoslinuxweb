@@ -1,0 +1,1193 @@
+[
+  {
+    "role": "icon",
+    "source_path": "docs/images/icon.png",
+    "file": "kupler-icon.png",
+    "alt": "LifeOS Küpler uygulama simgesi",
+    "app_id": "lifeos-kupler",
+    "src": "/img/ikonlar/kupler-icon.png",
+    "kaynak": "catalog/media/kupler-icon.png",
+    "kaynak_sha256": "598bfe748d4764d05f9988f2f1b08e64c0a004701fba0664c93216192b4577da",
+    "kaynak_boyutu": [
+      256,
+      256
+    ],
+    "width": 256,
+    "height": 256,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "de33b3326ae5eb575f42de7b9e8184ca437495cf2e491ed888454e1f2486c7dd",
+    "cikti_ozetleri": {
+      "/img/ikonlar/kupler-icon.png": "598bfe748d4764d05f9988f2f1b08e64c0a004701fba0664c93216192b4577da"
+    }
+  },
+  {
+    "role": "screenshot",
+    "source_path": "docs/images/masaustu.jpg",
+    "file": "kupler-desktop.jpg",
+    "alt": "LifeOS Küpler masaüstü oyun ekranı",
+    "app_id": "lifeos-kupler",
+    "src": "/img/ekran/kupler-desktop.webp",
+    "kaynak": "catalog/media/kupler-desktop.jpg",
+    "kaynak_sha256": "894db81ba88730dfcaf945c86096fc4adbf1bfe8e086a91743cf7a98b93003a2",
+    "kaynak_boyutu": [
+      960,
+      570
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "f9650cf663a8266f26964fb91f87d650e712ff6c0779bd253dcd91abd2ac4b10",
+    "cikti_ozetleri": {
+      "/img/ekran/kupler-desktop.webp": "8585f6002792d846c5d88156e4968be7ba0ba94b3d499d883d3393d3dbbba14d",
+      "/img/ekran/kupler-desktop@1x.webp": "52bce61787f104337720ce41b0018e9d5b4ae4ea2e75e0db5da5b3981bce4545",
+      "/img/ekran/kupler-desktop-pencere.webp": "3f70f9dc3285f22b010a584d773cf4a07cba275c0014b07f264dfab73df5d688"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Deniz/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/kupler-desktop@1x.webp",
+    "pencere": "/img/ekran/kupler-desktop-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "source_path": "docs/images/bulmaca-masaustu.jpg",
+    "file": "kupler-puzzle.jpg",
+    "alt": "LifeOS Küpler bulmaca ekranı",
+    "app_id": "lifeos-kupler",
+    "src": "/img/ekran/kupler-puzzle.webp",
+    "kaynak": "catalog/media/kupler-puzzle.jpg",
+    "kaynak_sha256": "e9970a149164387b7b6d07549a4fb3294a83fb7656ccdea897572fa36f0db99a",
+    "kaynak_boyutu": [
+      960,
+      570
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "603392a28bd8975c524bb8e9d541a4817205fe05d41694cd15a55d032dafd495",
+    "cikti_ozetleri": {
+      "/img/ekran/kupler-puzzle.webp": "634a3a3413b1d93f9d51656ee70a199254d01113c2cfe2b7789eaf6f2ac7d917",
+      "/img/ekran/kupler-puzzle@1x.webp": "9ed1f9b79dd2ca3cebfd8d3f5262412b252328051b3c76c15bcaf12c75d9eb9a",
+      "/img/ekran/kupler-puzzle-pencere.webp": "01a875dcf2362a9f0389e02dd2277fe384b769c61ee6e15356fd1db2fef5ce1a"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Grafit/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/kupler-puzzle@1x.webp",
+    "pencere": "/img/ekran/kupler-puzzle-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "kupler-telefon-ana.webp",
+    "alt": "LifeOS Küpler telefonda: oyun seçimi",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/kupler/images/web/shot-home.webp",
+    "app_id": "lifeos-kupler",
+    "src": "/img/telefon/kupler-telefon-ana.webp",
+    "kaynak": "catalog/media/kupler-telefon-ana.webp",
+    "kaynak_sha256": "4bc93ee9d4f77dfa4170f7f2ceaff54ff50164949e4631203ccece4496ce1ffd",
+    "kaynak_boyutu": [
+      600,
+      1300
+    ],
+    "width": 600,
+    "height": 1300,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "3bbd706a792ca17bac1b57b7d7f70753ccdf2be4e08a0d38a348fbe595c2fb25",
+    "cikti_ozetleri": {
+      "/img/telefon/kupler-telefon-ana.webp": "b9736b751472c95b831a798b243cc2d8b17b2f9129ed64eafed70f271bda3381"
+    }
+  },
+  {
+    "role": "screenshot",
+    "file": "kupler-telefon-seker.webp",
+    "alt": "LifeOS Küpler: Şeker Küpler",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/kupler/images/web/shot-sugar.webp",
+    "app_id": "lifeos-kupler",
+    "src": "/img/telefon/kupler-telefon-seker.webp",
+    "kaynak": "catalog/media/kupler-telefon-seker.webp",
+    "kaynak_sha256": "854088ba8f2a86bffcb7498a56335ba7e229530570efff2ae452e27d5d6bcda7",
+    "kaynak_boyutu": [
+      600,
+      1304
+    ],
+    "width": 600,
+    "height": 1304,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "2d528d588ac0a37b1aabed5289d22fb66e207990d8c1eb796e6d778e355b1594",
+    "cikti_ozetleri": {
+      "/img/telefon/kupler-telefon-seker.webp": "98a04719a9b372a67ec6760d28febb8a7709c47158a3ee849c991de9aa520952"
+    }
+  },
+  {
+    "role": "screenshot",
+    "file": "kupler-telefon-bulmaca.webp",
+    "alt": "LifeOS Küpler: Mücevherli Bulmaca Küpler",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/kupler/images/web/shot-puzzle-jewels.webp",
+    "app_id": "lifeos-kupler",
+    "src": "/img/telefon/kupler-telefon-bulmaca.webp",
+    "kaynak": "catalog/media/kupler-telefon-bulmaca.webp",
+    "kaynak_sha256": "0ac3352bebc3d00bdc8fa946a23eead6babde3b75f26c83910cfe64afd1a6744",
+    "kaynak_boyutu": [
+      600,
+      1298
+    ],
+    "width": 600,
+    "height": 1298,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "9fbd6b99fb7ddf05b98e9edd4632251b59e8448716e7892bfca8b04cf0a4eea3",
+    "cikti_ozetleri": {
+      "/img/telefon/kupler-telefon-bulmaca.webp": "9925dac437dda600d0a39517d43fc06e88265b1c09d51c74b582e13292df0768"
+    }
+  },
+  {
+    "role": "screenshot",
+    "file": "kupler-telefon-harita.webp",
+    "alt": "LifeOS Küpler: Şeker Küpler haritası",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/kupler/images/web/shot-sugar-map.webp",
+    "app_id": "lifeos-kupler",
+    "src": "/img/telefon/kupler-telefon-harita.webp",
+    "kaynak": "catalog/media/kupler-telefon-harita.webp",
+    "kaynak_sha256": "f6c6abd6fc89ea6db8b0b7b2ca68c7fecbc42a17bc33a8e84ac1333f6808095e",
+    "kaynak_boyutu": [
+      600,
+      1304
+    ],
+    "width": 600,
+    "height": 1304,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "abab5e730fe34049c689dcb841ef546c49d73a1a0aa95cac7491cdc372c77538",
+    "cikti_ozetleri": {
+      "/img/telefon/kupler-telefon-harita.webp": "6fb961582806bc31b208e0f7608e86c4f16c3b4d4ab15aa699a5f28d539ef086"
+    }
+  },
+  {
+    "role": "screenshot",
+    "file": "kupler-telefon-zincir.webp",
+    "alt": "LifeOS Küpler: Zincir Küpler: zincirleme patlama",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/kupler/images/web/shot-chain.webp",
+    "app_id": "lifeos-kupler",
+    "src": "/img/telefon/kupler-telefon-zincir.webp",
+    "kaynak": "catalog/media/kupler-telefon-zincir.webp",
+    "kaynak_sha256": "4381e048e86c372a7e7dc317edd020e116bfd028fb0eff52337bb0d5a06d16a9",
+    "kaynak_boyutu": [
+      600,
+      1304
+    ],
+    "width": 600,
+    "height": 1304,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "6ae4ad9afbf1af67278902376f14bf1fd6a7a23dcf625c893324eec222e4d16d",
+    "cikti_ozetleri": {
+      "/img/telefon/kupler-telefon-zincir.webp": "2e67e961a9df55dce7372e24cf535b3a263cc9b09d993670752d9df0b6935016"
+    }
+  },
+  {
+    "role": "screenshot",
+    "file": "kupler-telefon-bomba.webp",
+    "alt": "LifeOS Küpler: Süper Küpler: bomba gücü",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/kupler/images/web/shot-bomb.webp",
+    "app_id": "lifeos-kupler",
+    "src": "/img/telefon/kupler-telefon-bomba.webp",
+    "kaynak": "catalog/media/kupler-telefon-bomba.webp",
+    "kaynak_sha256": "027bcbc4187020db170cac6209e24fb80c62a17864b247fab41d8ce3850c3df9",
+    "kaynak_boyutu": [
+      600,
+      1304
+    ],
+    "width": 600,
+    "height": 1304,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "7301e77b6084f0d9c88ee0e93e35c13fcbb318a62220d4bec265e4586ff77714",
+    "cikti_ozetleri": {
+      "/img/telefon/kupler-telefon-bomba.webp": "19f2d2bd27f461442bd18727578473f3836b7d0e18b9edd675520ade11baa182"
+    }
+  },
+  {
+    "role": "screenshot",
+    "file": "kupler-telefon-piksel.webp",
+    "alt": "LifeOS Küpler: Klasik Küpler: piksel teması",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/kupler/images/web/shot-pixel.webp",
+    "app_id": "lifeos-kupler",
+    "src": "/img/telefon/kupler-telefon-piksel.webp",
+    "kaynak": "catalog/media/kupler-telefon-piksel.webp",
+    "kaynak_sha256": "077863d53871a698ffc1e29bf8eac53bebbcdc0b78ff085f74f00d8d8021b6b5",
+    "kaynak_boyutu": [
+      600,
+      1304
+    ],
+    "width": 600,
+    "height": 1304,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "23e470b87f02950a863e0b4ac5f6c3bb9250b95771330599da1a9a91871dc70b",
+    "cikti_ozetleri": {
+      "/img/telefon/kupler-telefon-piksel.webp": "651c24ac0df648711bf46a7caaccfa6061d76cc8ca23718b8f227818f80882dc"
+    }
+  },
+  {
+    "role": "screenshot",
+    "file": "kupler-telefon-hikaye.webp",
+    "alt": "LifeOS Küpler: İstanbul hikâye kartı",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/kupler/images/web/shot-story.webp",
+    "app_id": "lifeos-kupler",
+    "src": "/img/telefon/kupler-telefon-hikaye.webp",
+    "kaynak": "catalog/media/kupler-telefon-hikaye.webp",
+    "kaynak_sha256": "cbad7d7304ca5981f52fc106e54c54a872929915c86b5d9aaeffca53c3716c50",
+    "kaynak_boyutu": [
+      600,
+      1298
+    ],
+    "width": 600,
+    "height": 1298,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "5373f2fe299aa160f3db3d0c0e7c6d5cca170720905b4a5a1dbe03f04f9deddd",
+    "cikti_ozetleri": {
+      "/img/telefon/kupler-telefon-hikaye.webp": "990e8d470838f029547f8750ca9c4ac0e7033070c5a37d69559f8bab51e764da"
+    }
+  },
+  {
+    "role": "icon",
+    "source_path": "assets/icon/golge.png",
+    "file": "golge-icon.png",
+    "alt": "Gölge Oyunu uygulama simgesi",
+    "app_id": "golge-oyunu",
+    "src": "/img/ikonlar/golge-icon.png",
+    "kaynak": "catalog/media/golge-icon.png",
+    "kaynak_sha256": "caa9519cd8fa84464c85a2d869aeffaed3006d2c08adaf4b48380d589edba20d",
+    "kaynak_boyutu": [
+      256,
+      256
+    ],
+    "width": 256,
+    "height": 256,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "cc377e81ec8f4126715b190560a17d4cd6d46472363783d0b52dd3bdbf6dd3b8",
+    "cikti_ozetleri": {
+      "/img/ikonlar/golge-icon.png": "caa9519cd8fa84464c85a2d869aeffaed3006d2c08adaf4b48380d589edba20d"
+    }
+  },
+  {
+    "role": "screenshot",
+    "source_path": "screenshots/02-derinlik.jpg",
+    "file": "golge-depth.jpg",
+    "alt": "Gölge Oyunu oyun içi derinlik sahnesi",
+    "app_id": "golge-oyunu",
+    "src": "/img/ekran/golge-depth.webp",
+    "kaynak": "catalog/media/golge-depth.jpg",
+    "kaynak_sha256": "5a297c6c603de28c404ddc524794c8dd792474be9f33fb1b5fd2e9f1b8db57a1",
+    "kaynak_boyutu": [
+      800,
+      450
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "9097d9274e0eefac90f9918f623f8f8f28305cc04570b186f16199a4ae10b827",
+    "cikti_ozetleri": {
+      "/img/ekran/golge-depth.webp": "61422fcc87abb27aa1ef9d84e82520d7a34f74fe4f17e28c9d1a9bf5775fd566",
+      "/img/ekran/golge-depth@1x.webp": "252d431e8c45c1b781fa63efd78f21d4cbdb43be80466f813d4b15ad683bad22",
+      "/img/ekran/golge-depth-pencere.webp": "23e84a123b5f4d0e12565400cabd5b406070a9edb425d53a7736c549fddc1b97"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kar/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/golge-depth@1x.webp",
+    "pencere": "/img/ekran/golge-depth-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "source_path": "screenshots/06-gokyolu.jpg",
+    "file": "golge-sky.jpg",
+    "alt": "Gölge Oyunu Gökyolu bölümü",
+    "app_id": "golge-oyunu",
+    "src": "/img/ekran/golge-sky.webp",
+    "kaynak": "catalog/media/golge-sky.jpg",
+    "kaynak_sha256": "283d5350d6ba54cd6fe7d5ad5005ec9caed755722d1939c53fa5224325834f14",
+    "kaynak_boyutu": [
+      800,
+      450
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "2d35bbc28a07f3bd09056110bf643377d3b7df02aa6e3037f15becd5eb451cd6",
+    "cikti_ozetleri": {
+      "/img/ekran/golge-sky.webp": "e0ee484af1b76cb20a9befec6914b8b55fd5f096ed0cd2bfa1a156f0032d5a64",
+      "/img/ekran/golge-sky@1x.webp": "521c39330995809da3e778751ac536060b4fee97dc63ee94bd88b42420052ec3",
+      "/img/ekran/golge-sky-pencere.webp": "a2f8e6d8130ac7f4c527157eb37a10b36dfe33e0d07ebe3b1b3509297e4964bf"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kor/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/golge-sky@1x.webp",
+    "pencere": "/img/ekran/golge-sky-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "source_path": "screenshots/01-acilis.jpg",
+    "file": "golge-start.jpg",
+    "alt": "Gölge Oyunu açılış sahnesi",
+    "app_id": "golge-oyunu",
+    "src": "/img/ekran/golge-start.webp",
+    "kaynak": "catalog/media/golge-start.jpg",
+    "kaynak_sha256": "4573994f07b20d1d3c626cb83aaa0de94cee31c5bec9aace50b21478dafcda04",
+    "kaynak_boyutu": [
+      800,
+      450
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "22c5c4a0f30e56001496b832e24a0e5ab3daf949d4625f7fab77d926120360ef",
+    "cikti_ozetleri": {
+      "/img/ekran/golge-start.webp": "7e64db37eeba3d13e3b907ea819125ee1455bbbea42f9e0fc52d2a1441dabc05",
+      "/img/ekran/golge-start@1x.webp": "06aa1d35234c66859bf2cf14a9662c6dd025af5927584071871cdeea48d1d3c4",
+      "/img/ekran/golge-start-pencere.webp": "c2aaf7946a2ff2c1038b9fcb33ea04332231cfc47b461eda00b4309b73c48b91"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kum/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/golge-start@1x.webp",
+    "pencere": "/img/ekran/golge-start-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "source_path": "docs/screenshots/editor-madde.webp",
+    "file": "folio-editor.webp",
+    "alt": "Folio editörü ve kanun maddesi önizlemesi; kurmaca belge",
+    "app_id": "lifeos-folio",
+    "src": "/img/ekran/folio-editor.webp",
+    "kaynak": "catalog/media/folio-editor.webp",
+    "kaynak_sha256": "16c5d1b712b26c04465e4564800adc3245df9a60880e65d29a4c0ce30cb0bbdc",
+    "kaynak_boyutu": [
+      1600,
+      1000
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "7bd3f28832d57d6cc1711f6c8bf3239393968f4c9d858e774c465c2eeeb513ec",
+    "cikti_ozetleri": {
+      "/img/ekran/folio-editor.webp": "4ea04626a04a6017cbd174e847bb3cd48427833c0f96f36a02644be01def0610",
+      "/img/ekran/folio-editor@1x.webp": "9b5551debde7c6128b20374d6517461efb15fbb757ba3ccc73cd6a9036f1caab",
+      "/img/ekran/folio-editor-pencere.webp": "db7f017c9c0c40c949de4bcdf3dc67449ee5e66a9a76b22ad9b1cb6982f070b2"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Lacivert/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/folio-editor@1x.webp",
+    "pencere": "/img/ekran/folio-editor-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "source_path": "docs/screenshots/sesli-okuma.webp",
+    "file": "folio-voice.webp",
+    "alt": "Folio sesli okuma ekranı; kurmaca belge",
+    "app_id": "lifeos-folio",
+    "src": "/img/ekran/folio-voice.webp",
+    "kaynak": "catalog/media/folio-voice.webp",
+    "kaynak_sha256": "d603e0c98ea61bcf915e107a5e431e82d52662354582a09153bf4e68cdf20171",
+    "kaynak_boyutu": [
+      1600,
+      1000
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "aaf9ab06764a6bd1fdc1775746ab316d2d4aa8d16ce6414911a4ea1da65f0ffa",
+    "cikti_ozetleri": {
+      "/img/ekran/folio-voice.webp": "a851bd08a5906a432fde47894f0f1bfd2252d391d36441076e35a948de6183ef",
+      "/img/ekran/folio-voice@1x.webp": "d99fcd9fdd983cafb4135cf02070a85690a053364e8035ef285403bd89c4435e",
+      "/img/ekran/folio-voice-pencere.webp": "504ba9f60d654a67d918f242e58ed10267f525870c221ca801b1092dccfb82d8"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Orchis/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/folio-voice@1x.webp",
+    "pencere": "/img/ekran/folio-voice-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "folio-anasayfa.webp",
+    "alt": "LifeOS Folio: Ana sayfa: günün duruşmaları, süreler ve tebligatlar",
+    "source_url": "https://lifeos.com.tr/folio/ofis-anasayfa.webp",
+    "app_id": "lifeos-folio",
+    "src": "/img/ekran/folio-anasayfa.webp",
+    "kaynak": "catalog/media/folio-anasayfa.webp",
+    "kaynak_sha256": "d5d330fffdaa8af264d3e48a5e5567e548a9d8029fe08f5f3935400986eb0bce",
+    "kaynak_boyutu": [
+      1600,
+      1000
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "5daffedb1b99d7d2141c9bdb86cde7e3e2b1791f904fcf2702da53b87bdcf11c",
+    "cikti_ozetleri": {
+      "/img/ekran/folio-anasayfa.webp": "7e3b245b207d53fcc644690a68f9ac71397f334c6899b218c4bdb3f81d49e34d",
+      "/img/ekran/folio-anasayfa@1x.webp": "23f9b92b8288a494902b04d08bf6f9502243c5f7ede4313280e0c3b256b9096a",
+      "/img/ekran/folio-anasayfa-pencere.webp": "a29816ce0fbd56e3483fc5a2b6c31b1fc61b2e0a4217404e4baf70a7d2b61a88"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Orman/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/folio-anasayfa@1x.webp",
+    "pencere": "/img/ekran/folio-anasayfa-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "folio-dosyalarim.webp",
+    "alt": "LifeOS Folio: Dosyalarım: UYAP'tan gelen dosyalar ve taraflar",
+    "source_url": "https://lifeos.com.tr/folio/portfoy.webp",
+    "app_id": "lifeos-folio",
+    "src": "/img/ekran/folio-dosyalarim.webp",
+    "kaynak": "catalog/media/folio-dosyalarim.webp",
+    "kaynak_sha256": "fad7165599ee022cb8c85b3164058a904d75c0621882551a80b16e416cad400e",
+    "kaynak_boyutu": [
+      1600,
+      1000
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "2fc7b174b1fb61100fa0e12f8c13ea2152a5c4284de4266e6812149d985b4a3e",
+    "cikti_ozetleri": {
+      "/img/ekran/folio-dosyalarim.webp": "607c4cda3990e7113465a5624507d2b9a722a2225e29b205288d3b25da627cfc",
+      "/img/ekran/folio-dosyalarim@1x.webp": "ea81c779ee86105c9054a2e32fed49649beb4728e53ebca14b39db9b3241256f",
+      "/img/ekran/folio-dosyalarim-pencere.webp": "3bda9020dc8bfb2ebacfadb4ef41c5fa4bde8873659a2f34aef13b4f71ec8d16"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Deniz/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/folio-dosyalarim@1x.webp",
+    "pencere": "/img/ekran/folio-dosyalarim-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "folio-evrak-onizleme.webp",
+    "alt": "LifeOS Folio: Evrakı listeden ayrılmadan okuma",
+    "source_url": "https://lifeos.com.tr/folio/dosya-onizleme.webp",
+    "app_id": "lifeos-folio",
+    "src": "/img/ekran/folio-evrak-onizleme.webp",
+    "kaynak": "catalog/media/folio-evrak-onizleme.webp",
+    "kaynak_sha256": "082c42b362de7ea9c3526b902276ff1db9403d0c5baae163d626c53b7682be39",
+    "kaynak_boyutu": [
+      1600,
+      1000
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "ed10a9782a2de8c7050ecc39d55490605614a3843816f8275f41ab3b338c3f4f",
+    "cikti_ozetleri": {
+      "/img/ekran/folio-evrak-onizleme.webp": "2c4c15b299590ee9ae3ce559726586d12dc23a4dfd2e178dd8992ecd4a0b33d0",
+      "/img/ekran/folio-evrak-onizleme@1x.webp": "2787dda981f756afd3411df3f3f79a42aa2722cbd95ac697d1b633961246c532",
+      "/img/ekran/folio-evrak-onizleme-pencere.webp": "92040bb38b9732ef59c82dc3249083f2301446e1069a6c113791428a3959fbc3"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Grafit/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/folio-evrak-onizleme@1x.webp",
+    "pencere": "/img/ekran/folio-evrak-onizleme-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "folio-tebligat.webp",
+    "alt": "LifeOS Folio: Tebligat ve kanuna göre hesaplanan süre",
+    "source_url": "https://lifeos.com.tr/folio/uets.webp",
+    "app_id": "lifeos-folio",
+    "src": "/img/ekran/folio-tebligat.webp",
+    "kaynak": "catalog/media/folio-tebligat.webp",
+    "kaynak_sha256": "f717a1c31f1d9e3fc428d3cce9c55b2247241fe5406e7f5c51a5357013247e24",
+    "kaynak_boyutu": [
+      1600,
+      1000
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "a1dad27aeb561ea129d3389cad9cbe9bea3a24589629ccbba2aa86b7480d3efa",
+    "cikti_ozetleri": {
+      "/img/ekran/folio-tebligat.webp": "bbc4cc8d49109f001a1400f11e832055253a9baa539c58627aa3de03de5a4311",
+      "/img/ekran/folio-tebligat@1x.webp": "4544e85801bea15c5fb00e90f8bb8274eaa0779d2c2e17cb2f1f9a497abd9387",
+      "/img/ekran/folio-tebligat-pencere.webp": "97a2f8940f2647bcc012532b111d243409112a1ebb487198ca63589b54bd7e4d"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kar/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/folio-tebligat@1x.webp",
+    "pencere": "/img/ekran/folio-tebligat-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "folio-ajanda.webp",
+    "alt": "LifeOS Folio: Duruşmalar, süreler ve işler aynı takvimde",
+    "source_url": "https://lifeos.com.tr/folio/ajanda.webp",
+    "app_id": "lifeos-folio",
+    "src": "/img/ekran/folio-ajanda.webp",
+    "kaynak": "catalog/media/folio-ajanda.webp",
+    "kaynak_sha256": "c9156025fdba1ec3c431441ab8ae18039d53c7327d7093630b52b43c51f8e1d0",
+    "kaynak_boyutu": [
+      1600,
+      1000
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "0bda39da8c9275511fe7b07f252ac3bb8977b28e6aa56e88b5bb986af470e5ce",
+    "cikti_ozetleri": {
+      "/img/ekran/folio-ajanda.webp": "8c1f982ccab47522e0c253c8b8a35c4117c01bbad569f99d4313c9f45ca503c5",
+      "/img/ekran/folio-ajanda@1x.webp": "1d5dd858d3669a1a105d61483814172a41bc98e2aba206330399a75a3de5f90b",
+      "/img/ekran/folio-ajanda-pencere.webp": "43343a75f1f5bc5627b1d1cedf3796e54fbd03b5f075777d5024846e36db3b25"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kor/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/folio-ajanda@1x.webp",
+    "pencere": "/img/ekran/folio-ajanda-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "folio-kasa.webp",
+    "alt": "LifeOS Folio: Büronun geliri, gideri ve müvekkil alacakları",
+    "source_url": "https://lifeos.com.tr/folio/kasa.webp",
+    "app_id": "lifeos-folio",
+    "src": "/img/ekran/folio-kasa.webp",
+    "kaynak": "catalog/media/folio-kasa.webp",
+    "kaynak_sha256": "e383f801c842559845deda9ad570250976ac893ddcecb8fd65f60a832f11c348",
+    "kaynak_boyutu": [
+      1600,
+      1000
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "2797f4a3257f0c40ef49eb30df3b75992ddde2f9d2bc39d6c8a661e0084aa23f",
+    "cikti_ozetleri": {
+      "/img/ekran/folio-kasa.webp": "41ff5dae2da11a2a9a96a55c79b317c5b437b28c249ef1665799e670a8513469",
+      "/img/ekran/folio-kasa@1x.webp": "18179954d02f0839bcb322c088e219893339e5b3b4f2f9da52132602571cf643",
+      "/img/ekran/folio-kasa-pencere.webp": "7832c748747b2ac345d96fcc0bd373d2785091c80a6b3b65bfbf71f168fc5956"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kum/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/folio-kasa@1x.webp",
+    "pencere": "/img/ekran/folio-kasa-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "folio-bildirimler.webp",
+    "alt": "LifeOS Folio: UYAP Mobil ve Avukat Portalı bildirimleri",
+    "source_url": "https://lifeos.com.tr/folio/bildirimler.webp",
+    "app_id": "lifeos-folio",
+    "src": "/img/ekran/folio-bildirimler.webp",
+    "kaynak": "catalog/media/folio-bildirimler.webp",
+    "kaynak_sha256": "99d1f33f0fcae8d06c84a8df4e1bccd3b540c1645079ad2eeaf7e6448ad254fb",
+    "kaynak_boyutu": [
+      1600,
+      1000
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "a15e69f19adced3398379700ef5184580dfcf4d9be364a6e9790365a27b97287",
+    "cikti_ozetleri": {
+      "/img/ekran/folio-bildirimler.webp": "1e1c87c8c1a07203603db4dc300490ae22ec0eeafd320ddf689291c3fd4397d0",
+      "/img/ekran/folio-bildirimler@1x.webp": "1bec2c32936cc17d23a354e6f9eb3194a28e1236d7473ad0191cc990bac27cb0",
+      "/img/ekran/folio-bildirimler-pencere.webp": "e14780afef620814c2d936decf1c3d0f770f83889c500ad9d31cb1abeeaa92ee"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Lacivert/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/folio-bildirimler@1x.webp",
+    "pencere": "/img/ekran/folio-bildirimler-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "folio-telefon-ana.webp",
+    "alt": "LifeOS Folio: Folio telefonda: ana sayfa",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/folio/phone-home.webp",
+    "app_id": "lifeos-folio",
+    "src": "/img/telefon/folio-telefon-ana.webp",
+    "kaynak": "catalog/media/folio-telefon-ana.webp",
+    "kaynak_sha256": "7afd0142677907dd1a139486c3a623dcc6555ce6a744fe8d18a1e3972b013860",
+    "kaynak_boyutu": [
+      600,
+      1298
+    ],
+    "width": 600,
+    "height": 1298,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "386eb90d73a52be12a9a3254b7293e279b34c8e67f84c0f456ce38d0e2bf1eb8",
+    "cikti_ozetleri": {
+      "/img/telefon/folio-telefon-ana.webp": "410d4c096bb1c94e88d2cf8c82874f30ed680d5729f2d7a95dec03d373ec5280"
+    }
+  },
+  {
+    "role": "screenshot",
+    "file": "folio-telefon-ajanda.webp",
+    "alt": "LifeOS Folio: Folio telefonda: ajanda",
+    "phone": true,
+    "source_url": "https://lifeos.com.tr/folio/telefon-ajanda.webp",
+    "app_id": "lifeos-folio",
+    "src": "/img/telefon/folio-telefon-ajanda.webp",
+    "kaynak": "catalog/media/folio-telefon-ajanda.webp",
+    "kaynak_sha256": "ab464c2aa4447fa99e4cef1ce1c2d40b7a519a58b20489bb26811be9d7e85c4b",
+    "kaynak_boyutu": [
+      600,
+      1298
+    ],
+    "width": 600,
+    "height": 1298,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "792d05c892e27d280b9fa46a228756ea098f7d672ede4aa4a1ab05d17e85ee38",
+    "cikti_ozetleri": {
+      "/img/telefon/folio-telefon-ajanda.webp": "02bab5d631773478268c0f1e84a68e1e74227d01adcc65081a2cac6042f2c3ae"
+    }
+  },
+  {
+    "role": "screenshot",
+    "file": "ofis-acilis.webp",
+    "alt": "LifeOS Ofis: Açılış: belge açın, yeni belge yazın ya da dosya imzalayın",
+    "source_url": "https://lifeos.com.tr/ofis-gorsel/acilis.webp",
+    "app_id": "lifeos-ofis",
+    "src": "/img/ekran/ofis-acilis.webp",
+    "kaynak": "catalog/media/ofis-acilis.webp",
+    "kaynak_sha256": "37a73797c5a4c23add7b8171b1fe4cd7e96c3686e3064f723f5fb75790984039",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "5f8f1fb1afbee93396db7f8fdc1f51c04ff2630ff30c4c87b66af26be24a1fa6",
+    "cikti_ozetleri": {
+      "/img/ekran/ofis-acilis.webp": "6869e6835ca7e229fa297ed602ce3961a6fba6a98c98733633e30ba918d9e0d7",
+      "/img/ekran/ofis-acilis@1x.webp": "95aa0bc51e4ec8346abd0ace0ffaf480a5c97e695e2eb341e94c21d9265229f3",
+      "/img/ekran/ofis-acilis-pencere.webp": "069de5ce23a1526ac40626d2457d28e29de5fe5080bd14c96d8887f18fb64cc0"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Orchis/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/ofis-acilis@1x.webp",
+    "pencere": "/img/ekran/ofis-acilis-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "ofis-onizleme.webp",
+    "alt": "LifeOS Ofis: UDF belgesi sayfa düzeniyle açılır",
+    "source_url": "https://lifeos.com.tr/ofis-gorsel/onizleme.webp",
+    "app_id": "lifeos-ofis",
+    "src": "/img/ekran/ofis-onizleme.webp",
+    "kaynak": "catalog/media/ofis-onizleme.webp",
+    "kaynak_sha256": "9edf3fe12133077791ed2cbada76448297b01cfa2bfa67a1817f63741a128202",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "d7e2dd860f54e012c8a471f2156af7cda5e6cf213ff72e2868190c2a3b88bd13",
+    "cikti_ozetleri": {
+      "/img/ekran/ofis-onizleme.webp": "f387556614286a760e1944a0cb44a80563a882469fab513458a374ed2c831ca8",
+      "/img/ekran/ofis-onizleme@1x.webp": "88ca04840ad6e2736d1bebab9fc5ae23422cef63132d9185830faf020fbdbebc",
+      "/img/ekran/ofis-onizleme-pencere.webp": "fc74a4f48ae85b0ab452442bb74bebc03676be8bd5c33a01df72e68be7bf57dd"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Orman/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/ofis-onizleme@1x.webp",
+    "pencere": "/img/ekran/ofis-onizleme-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "ofis-editor.webp",
+    "alt": "LifeOS Ofis: Editörün araç çubuğu; yazım denetimi açık",
+    "source_url": "https://lifeos.com.tr/ofis-gorsel/editor.webp",
+    "app_id": "lifeos-ofis",
+    "src": "/img/ekran/ofis-editor.webp",
+    "kaynak": "catalog/media/ofis-editor.webp",
+    "kaynak_sha256": "f27ee33ffd6ccfb7273df134c10d32f8863c62d0a5cddf63f352a598f84dd813",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "f9fa6698d2f9d1ab89f9d144782d13465b4f116fbf8e6afd831a3a9fda8713e2",
+    "cikti_ozetleri": {
+      "/img/ekran/ofis-editor.webp": "d26844c4012d67d9edcb971976c897f5e3d1a8c2aca8e4b505811b49a4cf78e3",
+      "/img/ekran/ofis-editor@1x.webp": "89ae0ca362de6409d1e98a9c542eab6a1feab25c3838bbfb5d038e065245dd02",
+      "/img/ekran/ofis-editor-pencere.webp": "3b3fb9d425a70cc9cbdc5b04e2f671156353f7364ad0bb538fdde46a12d5c27c"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Deniz/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/ofis-editor@1x.webp",
+    "pencere": "/img/ekran/ofis-editor-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "ofis-imz.webp",
+    "alt": "LifeOS Ofis: E-imzalı .imz dosyası: imza, imzacı ve belge",
+    "source_url": "https://lifeos.com.tr/ofis-gorsel/imz.webp",
+    "app_id": "lifeos-ofis",
+    "src": "/img/ekran/ofis-imz.webp",
+    "kaynak": "catalog/media/ofis-imz.webp",
+    "kaynak_sha256": "fbec404f5fa694ebe66084d2e3699e7c3f08d372452f0d7d3ed716c587252dd7",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "5944808ef553780614d1c835147fe039f6519f99f02aab8eeb247b8a4d6a716e",
+    "cikti_ozetleri": {
+      "/img/ekran/ofis-imz.webp": "24377820b95ea2903de13b8256b5a86325f6fdc74f3203afa1583cef49ef34ab",
+      "/img/ekran/ofis-imz@1x.webp": "9f56ffe7a5ba70c2c4cfad65663a4c530e4ef86a95f1393a9aefe5e0b366c05f",
+      "/img/ekran/ofis-imz-pencere.webp": "07dcf38cae512918312554b4fa68fb15181190f272be8549e9a81d5ad5fa5877"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Grafit/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/ofis-imz@1x.webp",
+    "pencere": "/img/ekran/ofis-imz-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "gate-terminal.webp",
+    "alt": "LifeOS Gate: Terminal: her sunucu ayrı sekmede",
+    "source_url": "https://lifeos.com.tr/gate-gorsel/terminal.webp",
+    "app_id": "lifeos-gate",
+    "src": "/img/ekran/gate-terminal.webp",
+    "kaynak": "catalog/media/gate-terminal.webp",
+    "kaynak_sha256": "ba1e4de4ffbf20a3fd7bdf46444427cfedd9d4fe5b9caf3f684dbb53de1cd90a",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 1280,
+    "height": 840,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "460f16b17938c65d0e82686103e9e3600fa39033757990aab65532c131689173",
+    "cikti_ozetleri": {
+      "/img/ekran/gate-terminal.webp": "8f34db45ce04dacbb8516c13db999e874aec1aee5949491bddeb283d4404f069",
+      "/img/ekran/gate-terminal@1x.webp": "8f34db45ce04dacbb8516c13db999e874aec1aee5949491bddeb283d4404f069",
+      "/img/ekran/gate-terminal-pencere.webp": "8f34db45ce04dacbb8516c13db999e874aec1aee5949491bddeb283d4404f069"
+    },
+    "src_1x": "/img/ekran/gate-terminal@1x.webp",
+    "pencere": "/img/ekran/gate-terminal-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "gate-sftp.webp",
+    "alt": "LifeOS Gate: İki panelli SFTP dosya gezgini",
+    "source_url": "https://lifeos.com.tr/gate-gorsel/sftp.webp",
+    "app_id": "lifeos-gate",
+    "src": "/img/ekran/gate-sftp.webp",
+    "kaynak": "catalog/media/gate-sftp.webp",
+    "kaynak_sha256": "3d0b851d6cf8571a037fa7a9a04b54909daba764d3a0a2d739abfcd2773aca4f",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 1280,
+    "height": 840,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "405dc2a3cf540f367d09a66587e197c0fe5df84664524570fada742b5da7aa69",
+    "cikti_ozetleri": {
+      "/img/ekran/gate-sftp.webp": "69e4b094d27eeddd94ceb7216e579358e3946cb6955345f7787c37fe336b3620",
+      "/img/ekran/gate-sftp@1x.webp": "69e4b094d27eeddd94ceb7216e579358e3946cb6955345f7787c37fe336b3620",
+      "/img/ekran/gate-sftp-pencere.webp": "69e4b094d27eeddd94ceb7216e579358e3946cb6955345f7787c37fe336b3620"
+    },
+    "src_1x": "/img/ekran/gate-sftp@1x.webp",
+    "pencere": "/img/ekran/gate-sftp-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "gate-izleme.webp",
+    "alt": "LifeOS Gate: Sunucu izleme: işlemci, bellek ve disk",
+    "source_url": "https://lifeos.com.tr/gate-gorsel/izleme.webp",
+    "app_id": "lifeos-gate",
+    "src": "/img/ekran/gate-izleme.webp",
+    "kaynak": "catalog/media/gate-izleme.webp",
+    "kaynak_sha256": "d53effd4c8e3278dcd655f94766e4b27b8069a580b74d9130a822053feb142f2",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 1280,
+    "height": 840,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "d8b195c7e40350e140b63831f7173ce6dd85e1d034b3cd8802d4559fba7def24",
+    "cikti_ozetleri": {
+      "/img/ekran/gate-izleme.webp": "6d02d7851464d651834aeb1255981030a3626d35c18419aba264bc662ddeb4b9",
+      "/img/ekran/gate-izleme@1x.webp": "6d02d7851464d651834aeb1255981030a3626d35c18419aba264bc662ddeb4b9",
+      "/img/ekran/gate-izleme-pencere.webp": "6d02d7851464d651834aeb1255981030a3626d35c18419aba264bc662ddeb4b9"
+    },
+    "src_1x": "/img/ekran/gate-izleme@1x.webp",
+    "pencere": "/img/ekran/gate-izleme-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "gate-ajan.webp",
+    "alt": "LifeOS Gate: Yapay zekâ ajanı çalışma alanı",
+    "source_url": "https://lifeos.com.tr/gate-gorsel/ajan.webp",
+    "app_id": "lifeos-gate",
+    "src": "/img/ekran/gate-ajan.webp",
+    "kaynak": "catalog/media/gate-ajan.webp",
+    "kaynak_sha256": "45709660972208958497656e92d75cfa2fef6f68dac5c52097476c104c6c68c9",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 1280,
+    "height": 840,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "66e83396d151dd40274f5e2ceefc9e4227d67de6e48341fce3c0a200aee398a3",
+    "cikti_ozetleri": {
+      "/img/ekran/gate-ajan.webp": "d615229d8b34415d2a4211880994f7f054eda821e826cc3d3af3ebf05a292eb0",
+      "/img/ekran/gate-ajan@1x.webp": "d615229d8b34415d2a4211880994f7f054eda821e826cc3d3af3ebf05a292eb0",
+      "/img/ekran/gate-ajan-pencere.webp": "d615229d8b34415d2a4211880994f7f054eda821e826cc3d3af3ebf05a292eb0"
+    },
+    "src_1x": "/img/ekran/gate-ajan@1x.webp",
+    "pencere": "/img/ekran/gate-ajan-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "gate-baglantilar.webp",
+    "alt": "LifeOS Gate: Etiketli sunucu profilleri",
+    "source_url": "https://lifeos.com.tr/gate-gorsel/baglantilar.webp",
+    "app_id": "lifeos-gate",
+    "src": "/img/ekran/gate-baglantilar.webp",
+    "kaynak": "catalog/media/gate-baglantilar.webp",
+    "kaynak_sha256": "44026cf012c5667c34438a1f10187defb0a0d7f33e3427719f048465f9d2aeda",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 1280,
+    "height": 840,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "fb0937ae00071fdd58e0e28ff4b98182519cbc1ee8b0c9c2e0492bd3bcac91e9",
+    "cikti_ozetleri": {
+      "/img/ekran/gate-baglantilar.webp": "25bce2498b7a26c3ccb0dd94f0fe81136ef69a13cdaf5d6f9e19a936409314a0",
+      "/img/ekran/gate-baglantilar@1x.webp": "25bce2498b7a26c3ccb0dd94f0fe81136ef69a13cdaf5d6f9e19a936409314a0",
+      "/img/ekran/gate-baglantilar-pencere.webp": "25bce2498b7a26c3ccb0dd94f0fe81136ef69a13cdaf5d6f9e19a936409314a0"
+    },
+    "src_1x": "/img/ekran/gate-baglantilar@1x.webp",
+    "pencere": "/img/ekran/gate-baglantilar-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "iptv-ana-sayfa.webp",
+    "alt": "LifeOS TV: Ana sayfa: öne çıkan film ve son eklenenler",
+    "source_url": "https://lifeos.com.tr/iptv-gorsel/ana-sayfa-2.webp",
+    "app_id": "lifeos-iptv-player",
+    "src": "/img/ekran/iptv-ana-sayfa.webp",
+    "kaynak": "catalog/media/iptv-ana-sayfa.webp",
+    "kaynak_sha256": "17a152f0915ac9abaa2a9c67f65f935ee5e67cbb7f0e5161604e60fcd7c5a9d8",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "3896df6074226a708856be4c70d24006d5546fa65fa590127be398796724e312",
+    "cikti_ozetleri": {
+      "/img/ekran/iptv-ana-sayfa.webp": "d602a2301306ea8a454a3f91c57a6e223e3c6b824f78a9831af8120e342ca227",
+      "/img/ekran/iptv-ana-sayfa@1x.webp": "098c48add4ce20abf5dce2eb4bc6e0efe54d42cfe6dd241b4539b1322df70ea4",
+      "/img/ekran/iptv-ana-sayfa-pencere.webp": "baef2c3280bfab5bdcb1427cef0aa55c8c45104b6703d0aa41bbf7724eed5788"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kar/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/iptv-ana-sayfa@1x.webp",
+    "pencere": "/img/ekran/iptv-ana-sayfa-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "iptv-canli-tv.webp",
+    "alt": "LifeOS TV: Canlı TV: kanal listesi ve yayın akışı",
+    "source_url": "https://lifeos.com.tr/iptv-gorsel/canli-tv.webp",
+    "app_id": "lifeos-iptv-player",
+    "src": "/img/ekran/iptv-canli-tv.webp",
+    "kaynak": "catalog/media/iptv-canli-tv.webp",
+    "kaynak_sha256": "346109f40e088f79bce4f962bde9a99ed7c4fa75dc4794eee24dfdeeb5522a5d",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "85cb7eb30049aa6a59ac5bd258f07d80686f88187845042288c9668e18a38fc2",
+    "cikti_ozetleri": {
+      "/img/ekran/iptv-canli-tv.webp": "dd3609b79558760ccb77e6dc16f6f3648de1c21e04f710518dc9feb0798b02c0",
+      "/img/ekran/iptv-canli-tv@1x.webp": "defb084de9f6560999103cdce7681d41b17436d2c00744fd8c4e0f048376b4a3",
+      "/img/ekran/iptv-canli-tv-pencere.webp": "0bd9a4e45da658219774ab99f3d13ee5170755c55a89107d7112845889538df8"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kor/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/iptv-canli-tv@1x.webp",
+    "pencere": "/img/ekran/iptv-canli-tv-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "iptv-filmler.webp",
+    "alt": "LifeOS TV: Filmler: kategoriler, arama ve afişler",
+    "source_url": "https://lifeos.com.tr/iptv-gorsel/filmler.webp",
+    "app_id": "lifeos-iptv-player",
+    "src": "/img/ekran/iptv-filmler.webp",
+    "kaynak": "catalog/media/iptv-filmler.webp",
+    "kaynak_sha256": "6b36f2200db1eeaf96147d7ddc9200d327749a7ba8afe2fee4e9fff8855aaa4f",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "9073806c3054c078441c255e6e759dd04e6a83e31056854269be619fbcaa281c",
+    "cikti_ozetleri": {
+      "/img/ekran/iptv-filmler.webp": "3dd7be299327818467b950dde4916203d2b9b6424dfbaff29946ba19ef42a615",
+      "/img/ekran/iptv-filmler@1x.webp": "d8c1a44005dfea95d5c48e6b7d9d8c9c154a08f77e6dee84996a05ee1414d6e0",
+      "/img/ekran/iptv-filmler-pencere.webp": "46202b44a56fc9fde93bcf4046061a118058765b3fbaaf87a675061ce0002047"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kum/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/iptv-filmler@1x.webp",
+    "pencere": "/img/ekran/iptv-filmler-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "iptv-oynatici.webp",
+    "alt": "LifeOS TV: Oynatıcı ve denetimleri",
+    "source_url": "https://lifeos.com.tr/iptv-gorsel/oynatici.webp",
+    "app_id": "lifeos-iptv-player",
+    "src": "/img/ekran/iptv-oynatici.webp",
+    "kaynak": "catalog/media/iptv-oynatici.webp",
+    "kaynak_sha256": "f62ed26f95db58690801a2b18c4d95f3cac30631e087ac52c037d41ba2b8f33b",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "a476a26fa2ab063d47a45d73f2a9db6100748a56105af6d12ab278b332a8ea07",
+    "cikti_ozetleri": {
+      "/img/ekran/iptv-oynatici.webp": "7560e68d2d0b98ebac7da10ba1a071ee4a2624d49682b9c77efe6193a7b2cb16",
+      "/img/ekran/iptv-oynatici@1x.webp": "454eb90d1b37e493a365cfacb9c479285dc8cc0412f26515082bfc5c213961fe",
+      "/img/ekran/iptv-oynatici-pencere.webp": "7258cc04013042f075074c97a48a6807ba8c705922b36c792d7513b862ad2122"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Lacivert/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/iptv-oynatici@1x.webp",
+    "pencere": "/img/ekran/iptv-oynatici-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "iptv-canli-simdi.webp",
+    "alt": "LifeOS TV: Ana sayfada kanallarda şu an yayınlananlar",
+    "source_url": "https://lifeos.com.tr/iptv-gorsel/ana-sayfa.webp",
+    "app_id": "lifeos-iptv-player",
+    "src": "/img/ekran/iptv-canli-simdi.webp",
+    "kaynak": "catalog/media/iptv-canli-simdi.webp",
+    "kaynak_sha256": "2711202852a8b5c3adfa0cd1b7c73cb2d1b297b08e611a8f70c95e54be4c1233",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "72741e2b45355ddaf6f4d9a43b21f6ec5c9503d562bdb7d98e71ff2c9168503a",
+    "cikti_ozetleri": {
+      "/img/ekran/iptv-canli-simdi.webp": "e4575234b32982920fbf016113099aefc1430bb15024b00002b6136f01cfe641",
+      "/img/ekran/iptv-canli-simdi@1x.webp": "fb676f70455c4d35f08bf4b6bae1751f4ab6da40452a82427f3c46b86c4cf574",
+      "/img/ekran/iptv-canli-simdi-pencere.webp": "00da089637b816664da800ac0a3309af5a241924866363e6bf0bd22d3d3d367e"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Orchis/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/iptv-canli-simdi@1x.webp",
+    "pencere": "/img/ekran/iptv-canli-simdi-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "iptv-film-detay.webp",
+    "alt": "LifeOS TV: Filmin konusu, oyuncuları ve benzerleri",
+    "source_url": "https://lifeos.com.tr/iptv-gorsel/film-detay.webp",
+    "app_id": "lifeos-iptv-player",
+    "src": "/img/ekran/iptv-film-detay.webp",
+    "kaynak": "catalog/media/iptv-film-detay.webp",
+    "kaynak_sha256": "b2e51c91e05650f88af8b2e7409691f3077af841a20e97ffb787c181dbc21b6f",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "d742bc88f3f59cbb98fae662f09399656019a6ed16ea619e90c8dc160c51bba4",
+    "cikti_ozetleri": {
+      "/img/ekran/iptv-film-detay.webp": "ec16065767e9e77a139a37551cae93e13b582619c9dbbdfad557c53d688b4fa0",
+      "/img/ekran/iptv-film-detay@1x.webp": "9aed3e58472d5f5ddf6c1a375fa0fb2ee470bfa6c0efefd0e0c5c5201a5c8de0",
+      "/img/ekran/iptv-film-detay-pencere.webp": "8b9f89deb7c9af6bcc9e4d38117f626a9d09ffc771984740aee5ce5b38ed9421"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Orman/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/iptv-film-detay@1x.webp",
+    "pencere": "/img/ekran/iptv-film-detay-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "iptv-dizi.webp",
+    "alt": "LifeOS TV: Dizi sezonları ve bölümleri",
+    "source_url": "https://lifeos.com.tr/iptv-gorsel/dizi.webp",
+    "app_id": "lifeos-iptv-player",
+    "src": "/img/ekran/iptv-dizi.webp",
+    "kaynak": "catalog/media/iptv-dizi.webp",
+    "kaynak_sha256": "36e4534bd268b37985a0f036653ab827cb0f4738e89cd3cb77b20f50b9c59200",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "71e345299d7ccdb33ec2212ac4efa04f7c51dda244fb217d99a0fcd110bee46e",
+    "cikti_ozetleri": {
+      "/img/ekran/iptv-dizi.webp": "c376033a24c71d984ce488aa364e416d1e8c3d30fe91cf1986e6a10fbd07dccd",
+      "/img/ekran/iptv-dizi@1x.webp": "e27547fa4823eebd1e3d1930edacf6f0c70d879a7104d5b416704587770075a8",
+      "/img/ekran/iptv-dizi-pencere.webp": "642328c29ce5b2edb6508a0ab480410fc4105ccf6f9fbc5d87b52e7aa07d71fe"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Deniz/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/iptv-dizi@1x.webp",
+    "pencere": "/img/ekran/iptv-dizi-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "anywhere-cihazlar.webp",
+    "alt": "LifeOS AnyWhere: Ağdaki cihazlar kendiliğinden listelenir",
+    "source_url": "https://lifeos.com.tr/anywhere-gorsel/cihazlar.webp",
+    "app_id": "lifeos-anywhere",
+    "src": "/img/ekran/anywhere-cihazlar.webp",
+    "kaynak": "catalog/media/anywhere-cihazlar.webp",
+    "kaynak_sha256": "fa68f5abe7f69ea5cd0bd3bd7a9d028a2ddadd6cb181097dbed269123c4abcbc",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "f90e5d74cebb71886ef8a54387127f53b0989f26b7df7a7cd7d5027b498f868c",
+    "cikti_ozetleri": {
+      "/img/ekran/anywhere-cihazlar.webp": "d1ffab5466c673629b8e79a1a2eea719e614fca181d49f2ac1d25c85d9394427",
+      "/img/ekran/anywhere-cihazlar@1x.webp": "f46670d4ef4f580a74b5fa54f7ccce6824baa8cf06bef39fb0af0b6b8bface31",
+      "/img/ekran/anywhere-cihazlar-pencere.webp": "50a6be0d35d1e44992857dfd449f38dd7cb384402618f582ff8abc1b7c235b05"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Grafit/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/anywhere-cihazlar@1x.webp",
+    "pencere": "/img/ekran/anywhere-cihazlar-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "anywhere-gonderim.webp",
+    "alt": "LifeOS AnyWhere: Gönderim sırası ve ilerlemesi",
+    "source_url": "https://lifeos.com.tr/anywhere-gorsel/gonderim.webp",
+    "app_id": "lifeos-anywhere",
+    "src": "/img/ekran/anywhere-gonderim.webp",
+    "kaynak": "catalog/media/anywhere-gonderim.webp",
+    "kaynak_sha256": "da0046a90e91110cad2fc92ff124f4c0342e759d2e6233cf557f8de447d250b0",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "c38471bc8d0a43f397a0b69b10b1b778542e9c7cd0b6f384d31bf1809c87db6d",
+    "cikti_ozetleri": {
+      "/img/ekran/anywhere-gonderim.webp": "fb1a12c82550284f03544cea6266e08c8a7c915041d41162c1a14619fa76dd46",
+      "/img/ekran/anywhere-gonderim@1x.webp": "5f2f70a78b405bee09a1c5fe63c09dd5170574cf94494f3637da0fa305d1e970",
+      "/img/ekran/anywhere-gonderim-pencere.webp": "f5ab214865a6bb9d4122ad35289b74e31da544b9334b9b3a137ae49519b9a615"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kar/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/anywhere-gonderim@1x.webp",
+    "pencere": "/img/ekran/anywhere-gonderim-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "anywhere-senkron.webp",
+    "alt": "LifeOS AnyWhere: Klasör eşitleme",
+    "source_url": "https://lifeos.com.tr/anywhere-gorsel/senkron.webp",
+    "app_id": "lifeos-anywhere",
+    "src": "/img/ekran/anywhere-senkron.webp",
+    "kaynak": "catalog/media/anywhere-senkron.webp",
+    "kaynak_sha256": "2a4dfd59bb8b453eacab3fee9c36d068475f4fe6a5c63f356e453a99fb468ea6",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "b179b3092e8bc109c94beb2bf6d94b3a7d1943402c4835039e8aa9992d053f9b",
+    "cikti_ozetleri": {
+      "/img/ekran/anywhere-senkron.webp": "2788128933af26d9d154f0deea8b9ed51160ec323e25482f557e7e31d6e8514a",
+      "/img/ekran/anywhere-senkron@1x.webp": "01c6ab0bd4b09b0b84e5b6f17b6861ad05c635a94248d5b8a37b0d4bb15a15bd",
+      "/img/ekran/anywhere-senkron-pencere.webp": "0258daa550be2ae2aa355321504f9b2c14aec23c1f937efa1dff07c61abcba32"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kor/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/anywhere-senkron@1x.webp",
+    "pencere": "/img/ekran/anywhere-senkron-pencere.webp"
+  },
+  {
+    "role": "screenshot",
+    "file": "anywhere-ayarlar.webp",
+    "alt": "LifeOS AnyWhere: Tema, dil, otomatik kabul ve hız sınırı",
+    "source_url": "https://lifeos.com.tr/anywhere-gorsel/ayarlar.webp",
+    "app_id": "lifeos-anywhere",
+    "src": "/img/ekran/anywhere-ayarlar.webp",
+    "kaynak": "catalog/media/anywhere-ayarlar.webp",
+    "kaynak_sha256": "d9a3eb8044e59d84b27f87a442f9da29924afdd8e8651ffc57bd167e853f86cc",
+    "kaynak_boyutu": [
+      1280,
+      840
+    ],
+    "width": 2560,
+    "height": 1600,
+    "sunum": "sunum",
+    "uretici_ozeti": "7ecb61bdd8d4ed7a456d599da89733fc83dc0c2befda048e9f559e6f1c1f5f5f",
+    "cikti_ozetleri": {
+      "/img/ekran/anywhere-ayarlar.webp": "909196c9ac73fc10bb2c27f4cca2d0cc3f70c182ec2250e17f97b3323eda22fd",
+      "/img/ekran/anywhere-ayarlar@1x.webp": "6ece0fab4b6727e7270168d7fa8decd2fca475a83bf99839f8df33f307c8b3b9",
+      "/img/ekran/anywhere-ayarlar-pencere.webp": "2a0bedb43c7ae332c8e38bb756b9ef2280397b493760b49d30bae870f3bcadd5"
+    },
+    "duvar_kagidi": "iso/airootfs/usr/share/wallpapers/LifeOS-Kum/contents/images/2560x1600.png",
+    "src_1x": "/img/ekran/anywhere-ayarlar@1x.webp",
+    "pencere": "/img/ekran/anywhere-ayarlar-pencere.webp"
+  },
+  {
+    "file": "masaustu-gun.png",
+    "role": "screenshot",
+    "alt": "LifeOS açık masaüstü tasarımı: dosyalar, konsol ve bildirim",
+    "theme": "light",
+    "app_id": "lifeos-masaustu",
+    "src": "/img/ekran/masaustu-gun.webp",
+    "kaynak": "apps/karsilama/lifeos_karsilama/qml/gorsel/masaustu-gun.png",
+    "kaynak_sha256": "b22a223588f9b186a0888cf28bbd3cd251edf49a5329876059121abfa0e61a2c",
+    "kaynak_boyutu": [
+      1080,
+      570
+    ],
+    "width": 1080,
+    "height": 570,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "ffe1fb823d4abce5c010a362c509b7059fbeec1566238599386a90edf03f810d",
+    "cikti_ozetleri": {
+      "/img/ekran/masaustu-gun.webp": "35e799dd588269b42133e04703f39812bb7a26268b5b34dee9be194f9e3b1885",
+      "/img/ekran/masaustu-gun@1x.webp": "c0f58e4b77a84d1f2a91c31571a35e4a55a53c3705eff98b6311305f98072fbd",
+      "/img/ekran/masaustu-gun-pencere.webp": "35e799dd588269b42133e04703f39812bb7a26268b5b34dee9be194f9e3b1885"
+    },
+    "src_1x": "/img/ekran/masaustu-gun@1x.webp",
+    "pencere": "/img/ekran/masaustu-gun-pencere.webp"
+  },
+  {
+    "file": "masaustu-gece.png",
+    "role": "screenshot",
+    "alt": "LifeOS koyu masaüstü tasarımı: dosyalar, konsol ve bildirim",
+    "theme": "dark",
+    "app_id": "lifeos-masaustu",
+    "src": "/img/ekran/masaustu-gece.webp",
+    "kaynak": "apps/karsilama/lifeos_karsilama/qml/gorsel/masaustu-gece.png",
+    "kaynak_sha256": "edf59a3dd7a018e9e4b46bbf602be2446c014edc4357e7c53ff6d40f656f2290",
+    "kaynak_boyutu": [
+      1080,
+      570
+    ],
+    "width": 1080,
+    "height": 570,
+    "sunum": "dogrudan",
+    "uretici_ozeti": "c6a5f0eb8bae11c0c879f97ac6d460f173a82c638c12f9f2dc9dfca284f0a86a",
+    "cikti_ozetleri": {
+      "/img/ekran/masaustu-gece.webp": "9b1998686aae23fb0501af4c8eb4805c5899f1f32fc0c225c506db873d3962a3",
+      "/img/ekran/masaustu-gece@1x.webp": "2eb3d567cc328061fc85a0b1cf895f6ad81282f4e40c3fd5969edff615d7c8db",
+      "/img/ekran/masaustu-gece-pencere.webp": "9b1998686aae23fb0501af4c8eb4805c5899f1f32fc0c225c506db873d3962a3"
+    },
+    "src_1x": "/img/ekran/masaustu-gece@1x.webp",
+    "pencere": "/img/ekran/masaustu-gece-pencere.webp"
+  }
+]

@@ -1,0 +1,1129 @@
+{
+  "uygulamalar": [
+    {
+      "id": "lifeos-ada",
+      "ad": "LifeOS Ada",
+      "kisa_aciklama": "Saat, bildirimler, medya ve hızlı ayarlar ekranın üstünde bir arada.",
+      "uzun_aciklama": "Saat, bildirimler, medya ve hızlı ayarlar ekranın üstünde bir arada.",
+      "ozellikler": [
+        "Bildirimleri ve medya denetimlerini aç.",
+        "Wi-Fi, ses ve parlaklık ayarlarına ulaş.",
+        "Ajanda kayıtlarını ve bilgisayarın durumunu gör.",
+        "F12 ile üstten açılan Konsol’a geç."
+      ],
+      "kategori": "Masaüstü",
+      "ikon": "/img/marka/lifeos-symbol.svg",
+      "ikon_kaynagi": "design/branding/lifeos-symbol.svg (ortak marka amblemi; özel uygulama ikonu bulunamadı)",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "docs/ada.md",
+        "apps/ada/"
+      ],
+      "komutlar": [
+        "lifeos-ada"
+      ],
+      "uygulama_dizinleri": [
+        "ada"
+      ],
+      "durum": "installed",
+      "one_cikan": true
+    },
+    {
+      "id": "lifeos-manager",
+      "ad": "LifeOS Yönetim",
+      "kisa_aciklama": "Bilgisayarının sağlığını, aygıtlarını ve ayarlarını tek yerden incele.",
+      "uzun_aciklama": "Bilgisayarının sağlığını, aygıtlarını ve ayarlarını tek yerden incele. Yönetim, lifeos komutuyla aynı işlem katmanını kullanır. Yetkili işlemler için plan ve onay gösterilir.",
+      "ozellikler": [
+        "Sistem sağlığı ve doktor bulguları",
+        "Yazıcı, sürücü ve e-imza araçlarının durumu",
+        "Hesap, görünüm, dil ve saat ayarları"
+      ],
+      "kategori": "Sistem",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Yonetim.svg",
+      "ikon_kaynagi": "design/branding/apps/tr.com.lifeos.Yonetim.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-manager",
+        "docs/manager.md",
+        "apps/manager/"
+      ],
+      "komutlar": [
+        "lifeos-yonetim"
+      ],
+      "uygulama_dizinleri": [
+        "manager"
+      ],
+      "durum": "packaged",
+      "paket": "lifeos-yonetim",
+      "one_cikan": true
+    },
+    {
+      "id": "lifeos-konsol",
+      "ad": "LifeOS Konsol",
+      "kisa_aciklama": "Yerel terminalini ve SSH sunucularını aynı pencerede kullan.",
+      "uzun_aciklama": "Yerel terminalini ve SSH sunucularını aynı pencerede kullan. Terminal Konsole motorunu, SFTP dosya bölümü Dolphin bileşenini kullanır.",
+      "ozellikler": [
+        "Sekmeler ve bölünmüş terminal alanları",
+        "SSH bağlantıları ve sunucu listesi",
+        "Konsole ve Dolphin bileşenleri",
+        "İsteğe bağlı yapay zekâ ajanı çubuğu"
+      ],
+      "kategori": "Geliştirme",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Konsol.svg",
+      "ikon_kaynagi": "design/branding/apps/tr.com.lifeos.Konsol.svg",
+      "ekran_goruntuleri": [
+        {
+          "dosya": "/img/ekran/konsol-tasarim-gun.webp",
+          "alt": "LifeOS Konsol açık tema tasarımı: terminal blokları ve sunucu kenar çubuğu",
+          "telefon": false,
+          "tasarim": true,
+          "kaynak": "design/konsol/cikti/konsol-gun.png"
+        }
+      ],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-konsol",
+        "docs/konsol.md",
+        "apps/konsol/",
+        "design/approved-designs.json#design/konsol/cikti/konsol-gun.png"
+      ],
+      "komutlar": [
+        "lifeos-konsol"
+      ],
+      "uygulama_dizinleri": [
+        "konsol"
+      ],
+      "durum": "packaged",
+      "paket": "lifeos-konsol",
+      "one_cikan": true
+    },
+    {
+      "id": "lifeos-folio",
+      "ad": "LifeOS Folio",
+      "kisa_aciklama": "Türkiye’deki avukatlar için: evraklarını, dilekçelerini ve çalışma arşivini tek yerde tut.",
+      "uzun_aciklama": "Evraklarını, dilekçelerini ve çalışma arşivini tek yerde tut. Belgeleri incele; duruşmaları, süreleri ve büro işlerini ajandada gör.",
+      "ozellikler": [
+        "Kanun maddesi önizlemesi ve sesli okuma",
+        "Dosyalar, tebligatlar ve ajanda",
+        "Büro gelir ve giderlerini takip et",
+        "Telefon ve tablette Folio"
+      ],
+      "kategori": "Ofis ve hukuk",
+      "ikon": "/img/ikonlar/lifeos-folio.png",
+      "ikon_kaynagi": "catalog/media/lifeos-folio.png",
+      "ekran_goruntuleri": [
+        {
+          "dosya": "/img/ekran/folio-editor.webp",
+          "alt": "Folio editörü ve kanun maddesi önizlemesi; kurmaca belge",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/folio-voice.webp",
+          "alt": "Folio sesli okuma ekranı; kurmaca belge",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/folio-anasayfa.webp",
+          "alt": "LifeOS Folio: Ana sayfa: günün duruşmaları, süreler ve tebligatlar",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/folio-dosyalarim.webp",
+          "alt": "LifeOS Folio: Dosyalarım: UYAP'tan gelen dosyalar ve taraflar",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/folio-evrak-onizleme.webp",
+          "alt": "LifeOS Folio: Evrakı listeden ayrılmadan okuma",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/folio-tebligat.webp",
+          "alt": "LifeOS Folio: Tebligat ve kanuna göre hesaplanan süre",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/folio-ajanda.webp",
+          "alt": "LifeOS Folio: Duruşmalar, süreler ve işler aynı takvimde",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/folio-kasa.webp",
+          "alt": "LifeOS Folio: Büronun geliri, gideri ve müvekkil alacakları",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/folio-bildirimler.webp",
+          "alt": "LifeOS Folio: UYAP Mobil ve Avukat Portalı bildirimleri",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/telefon/folio-telefon-ana.webp",
+          "alt": "LifeOS Folio: Folio telefonda: ana sayfa",
+          "telefon": true
+        },
+        {
+          "dosya": "/img/telefon/folio-telefon-ajanda.webp",
+          "alt": "LifeOS Folio: Folio telefonda: ajanda",
+          "telefon": true
+        }
+      ],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-folio",
+        "catalog/media.json#lifeos-folio",
+        "catalog/featured.json#hero"
+      ],
+      "komutlar": [
+        "lifeos-folio"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "packaged",
+      "paket": "lifeos-folio",
+      "one_cikan": true
+    },
+    {
+      "id": "lifeos-ofis",
+      "ad": "LifeOS Ofis",
+      "kisa_aciklama": "Word, UDF ve PDF belgelerini aç, düzenle; e-imzalı .imz dosyalarını görüntüle.",
+      "uzun_aciklama": "Word, UDF ve PDF belgelerini aç, düzenle; e-imzalı .imz dosyalarını görüntüle.",
+      "ozellikler": [
+        "UDF belgelerini sayfa düzeniyle aç",
+        "Belge düzenleme ve Türkçe yazım denetimi",
+        "E-imzalı .imz dosyalarını görüntüle"
+      ],
+      "kategori": "Ofis ve hukuk",
+      "ikon": "/img/ikonlar/lifeos-ofis.png",
+      "ikon_kaynagi": "catalog/media/lifeos-ofis.png",
+      "ekran_goruntuleri": [
+        {
+          "dosya": "/img/ekran/ofis-acilis.webp",
+          "alt": "LifeOS Ofis: Açılış: belge açın, yeni belge yazın ya da dosya imzalayın",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/ofis-onizleme.webp",
+          "alt": "LifeOS Ofis: UDF belgesi sayfa düzeniyle açılır",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/ofis-editor.webp",
+          "alt": "LifeOS Ofis: Editörün araç çubuğu; yazım denetimi açık",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/ofis-imz.webp",
+          "alt": "LifeOS Ofis: E-imzalı .imz dosyası: imza, imzacı ve belge",
+          "telefon": false
+        }
+      ],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-ofis",
+        "catalog/media.json#lifeos-ofis",
+        "docs/kurulum.md"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "packaged",
+      "paket": "lifeos-ofis",
+      "one_cikan": true
+    },
+    {
+      "id": "lifeos-yayin",
+      "ad": "LifeOS Yayınla",
+      "kisa_aciklama": "Bilgisayarının ekranını ya da tek bir pencereyi televizyonda göster.",
+      "uzun_aciklama": "Bilgisayarının ekranını ya da tek bir pencereyi televizyonda göster.",
+      "ozellikler": [
+        "Ekranını televizyonda göster.",
+        "Tek bir pencereyi paylaş."
+      ],
+      "kategori": "Medya",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Yayin.svg",
+      "ikon_kaynagi": "/usr/share/icons/hicolor/scalable/apps/tr.com.lifeos.Yayin.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "/usr/share/applications/tr.com.lifeos.Yayin.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-yayin"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": true
+    },
+    {
+      "id": "lifeos-store",
+      "ad": "LifeOS Mağaza",
+      "kisa_aciklama": "Uygulama kur, güncelle ve önceki sürümleri incele.",
+      "uzun_aciklama": "Uygulama kur, güncelle ve önceki sürümleri incele.",
+      "ozellikler": [
+        "Uygulama arama ve koleksiyonlar",
+        "Güncellemeler ve sürüm sabitleme",
+        "Arch, Flatpak ve üretici kaynakları"
+      ],
+      "kategori": "Sistem",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Magaza.svg",
+      "ikon_kaynagi": "design/branding/apps/tr.com.lifeos.Magaza.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-store",
+        "docs/magaza.md",
+        "apps/magaza/"
+      ],
+      "komutlar": [
+        "lifeos-magaza",
+        "lifeos-magaza-kur"
+      ],
+      "uygulama_dizinleri": [
+        "magaza"
+      ],
+      "durum": "packaged",
+      "paket": "lifeos-magaza",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-kupler",
+      "ad": "LifeOS Küpler",
+      "kisa_aciklama": "Düşen bloklar, sürükle-bırak bulmacalar ve renkli 2.5D dünyalar.",
+      "uzun_aciklama": "Düşen bloklar, sürükle-bırak bulmacalar ve renkli 2.5D dünyalar.",
+      "ozellikler": [
+        "Düşen blok oyunları",
+        "Sürükle-bırak bulmacalar",
+        "Çevrimdışı ve reklamsız oyun",
+        "Telefon ve tablette oyun"
+      ],
+      "kategori": "Oyun",
+      "ikon": "/img/ikonlar/kupler-icon.png",
+      "ikon_kaynagi": "catalog/media/kupler-icon.png",
+      "ekran_goruntuleri": [
+        {
+          "dosya": "/img/ekran/kupler-desktop.webp",
+          "alt": "LifeOS Küpler masaüstü oyun ekranı",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/kupler-puzzle.webp",
+          "alt": "LifeOS Küpler bulmaca ekranı",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/telefon/kupler-telefon-ana.webp",
+          "alt": "LifeOS Küpler telefonda: oyun seçimi",
+          "telefon": true
+        },
+        {
+          "dosya": "/img/telefon/kupler-telefon-seker.webp",
+          "alt": "LifeOS Küpler: Şeker Küpler",
+          "telefon": true
+        },
+        {
+          "dosya": "/img/telefon/kupler-telefon-bulmaca.webp",
+          "alt": "LifeOS Küpler: Mücevherli Bulmaca Küpler",
+          "telefon": true
+        },
+        {
+          "dosya": "/img/telefon/kupler-telefon-harita.webp",
+          "alt": "LifeOS Küpler: Şeker Küpler haritası",
+          "telefon": true
+        },
+        {
+          "dosya": "/img/telefon/kupler-telefon-zincir.webp",
+          "alt": "LifeOS Küpler: Zincir Küpler: zincirleme patlama",
+          "telefon": true
+        },
+        {
+          "dosya": "/img/telefon/kupler-telefon-bomba.webp",
+          "alt": "LifeOS Küpler: Süper Küpler: bomba gücü",
+          "telefon": true
+        },
+        {
+          "dosya": "/img/telefon/kupler-telefon-piksel.webp",
+          "alt": "LifeOS Küpler: Klasik Küpler: piksel teması",
+          "telefon": true
+        },
+        {
+          "dosya": "/img/telefon/kupler-telefon-hikaye.webp",
+          "alt": "LifeOS Küpler: İstanbul hikâye kartı",
+          "telefon": true
+        }
+      ],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-kupler",
+        "catalog/media.json#lifeos-kupler",
+        "catalog/featured.json#hero"
+      ],
+      "komutlar": [
+        "lifeos-kupler"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "packaged",
+      "paket": "lifeos-kupler",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-iptv-player",
+      "ad": "LifeOS TV",
+      "kisa_aciklama": "Kendi Xtream Codes hesabını veya M3U listeni aç; canlı yayın, film ve dizi izle.",
+      "uzun_aciklama": "Kendi Xtream Codes hesabını veya M3U listeni aç; canlı yayın, film ve dizi izle. LifeOS TV kanal sunmaz; kendi yayın listeni oynatır.",
+      "ozellikler": [
+        "Canlı TV ve yayın akışı",
+        "Altyazı ve kaldığın yerden devam etme",
+        "Film ve dizi kütüphanesi"
+      ],
+      "kategori": "Medya",
+      "ikon": "/img/ikonlar/lifeos-iptv.png",
+      "ikon_kaynagi": "catalog/media/lifeos-iptv.png",
+      "ekran_goruntuleri": [
+        {
+          "dosya": "/img/ekran/iptv-ana-sayfa.webp",
+          "alt": "LifeOS TV: Ana sayfa: öne çıkan film ve son eklenenler",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/iptv-canli-tv.webp",
+          "alt": "LifeOS TV: Canlı TV: kanal listesi ve yayın akışı",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/iptv-filmler.webp",
+          "alt": "LifeOS TV: Filmler: kategoriler, arama ve afişler",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/iptv-oynatici.webp",
+          "alt": "LifeOS TV: Oynatıcı ve denetimleri",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/iptv-canli-simdi.webp",
+          "alt": "LifeOS TV: Ana sayfada kanallarda şu an yayınlananlar",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/iptv-film-detay.webp",
+          "alt": "LifeOS TV: Filmin konusu, oyuncuları ve benzerleri",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/iptv-dizi.webp",
+          "alt": "LifeOS TV: Dizi sezonları ve bölümleri",
+          "telefon": false
+        }
+      ],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-iptv-player",
+        "catalog/media.json#lifeos-iptv-player"
+      ],
+      "komutlar": [
+        "lifeos-tv"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "packaged",
+      "paket": "lifeos-tv",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-gate",
+      "ad": "LifeOS Gate",
+      "kisa_aciklama": "SSH terminali, SFTP dosyaları ve sunucu izleme tek pencerede.",
+      "uzun_aciklama": "SSH terminali, SFTP dosyaları ve sunucu izleme tek pencerede.",
+      "ozellikler": [
+        "Çift panelli SFTP dosya gezgini",
+        "Sunucu izleme ve terminal sekmeleri",
+        "tmux ile sunucuda süren oturumlar",
+        "Uzak klasörü sürücü olarak bağlama"
+      ],
+      "kategori": "Geliştirme",
+      "ikon": "/img/ikonlar/lifeos-gate.png",
+      "ikon_kaynagi": "catalog/media/lifeos-gate.png",
+      "ekran_goruntuleri": [
+        {
+          "dosya": "/img/ekran/gate-terminal.webp",
+          "alt": "LifeOS Gate: Terminal: her sunucu ayrı sekmede",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/gate-sftp.webp",
+          "alt": "LifeOS Gate: İki panelli SFTP dosya gezgini",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/gate-izleme.webp",
+          "alt": "LifeOS Gate: Sunucu izleme: işlemci, bellek ve disk",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/gate-ajan.webp",
+          "alt": "LifeOS Gate: Yapay zekâ ajanı çalışma alanı",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/gate-baglantilar.webp",
+          "alt": "LifeOS Gate: Etiketli sunucu profilleri",
+          "telefon": false
+        }
+      ],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-gate",
+        "catalog/media.json#lifeos-gate",
+        "docs/gate.md"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "packaged",
+      "paket": "lifeos-gate",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-anywhere",
+      "ad": "LifeOS AnyWhere",
+      "kisa_aciklama": "Aynı ağdaki bilgisayar, telefon, tablet ve televizyon arasında dosya gönder.",
+      "uzun_aciklama": "Aynı ağdaki bilgisayar, telefon, tablet ve televizyon arasında dosya gönder.",
+      "ozellikler": [
+        "Hesap ve bulut gerektirmeyen yerel aktarım",
+        "Cihazlar arasında klasör eşitleme",
+        "WebDAV, FTP ve SFTP sunucularıyla eşitleme"
+      ],
+      "kategori": "İletişim",
+      "ikon": "/img/ikonlar/lifeos-anywhere.png",
+      "ikon_kaynagi": "catalog/media/lifeos-anywhere.png",
+      "ekran_goruntuleri": [
+        {
+          "dosya": "/img/ekran/anywhere-cihazlar.webp",
+          "alt": "LifeOS AnyWhere: Ağdaki cihazlar kendiliğinden listelenir",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/anywhere-gonderim.webp",
+          "alt": "LifeOS AnyWhere: Gönderim sırası ve ilerlemesi",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/anywhere-senkron.webp",
+          "alt": "LifeOS AnyWhere: Klasör eşitleme",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/anywhere-ayarlar.webp",
+          "alt": "LifeOS AnyWhere: Tema, dil, otomatik kabul ve hız sınırı",
+          "telefon": false
+        }
+      ],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-anywhere",
+        "catalog/media.json#lifeos-anywhere"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "packaged",
+      "paket": "lifeos-anywhere",
+      "one_cikan": false
+    },
+    {
+      "id": "golge-oyunu",
+      "ad": "Gölge Oyunu",
+      "kisa_aciklama": "İstanbul’un gölgelerinde, ışığın peşinde bir platform macerası.",
+      "uzun_aciklama": "İstanbul’un gölgelerinde, ışığın peşinde bir platform macerası. Paketleme çalışması sürüyor; kurulu olarak sunulmuyor.",
+      "ozellikler": [
+        "Derinlik ve Gökyolu bölümleri",
+        "Yerli Linux hedefi"
+      ],
+      "kategori": "Oyun",
+      "ikon": "/img/ikonlar/golge-icon.png",
+      "ikon_kaynagi": "catalog/media/golge-icon.png",
+      "ekran_goruntuleri": [
+        {
+          "dosya": "/img/ekran/golge-depth.webp",
+          "alt": "Gölge Oyunu oyun içi derinlik sahnesi",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/golge-sky.webp",
+          "alt": "Gölge Oyunu Gökyolu bölümü",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/golge-start.webp",
+          "alt": "Gölge Oyunu açılış sahnesi",
+          "telefon": false
+        }
+      ],
+      "kaynaklar": [
+        "catalog/apps.json#golge-oyunu",
+        "catalog/media.json#golge-oyunu"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "packaging-pending",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-ajanda",
+      "ad": "LifeOS Ajanda",
+      "kisa_aciklama": "Google Takvim, Folio duruşmaları ve kendi kayıtlarını aynı takvimde gör.",
+      "uzun_aciklama": "Google Takvim, Folio duruşmaları ve kendi kayıtlarını aynı takvimde gör.",
+      "ozellikler": [
+        "Gün, hafta, ay ve liste görünümü",
+        "Hatırlatmalar, notlar ve sesli not",
+        "Türkçe arama ve tekrarlayan kayıtlar"
+      ],
+      "kategori": "Ofis ve hukuk",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Ajanda.svg",
+      "ikon_kaynagi": "/usr/share/icons/hicolor/scalable/apps/tr.com.lifeos.Ajanda.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-ajanda",
+        "docs/ajanda.md",
+        "apps/ajanda/"
+      ],
+      "komutlar": [
+        "lifeos-ajanda"
+      ],
+      "uygulama_dizinleri": [
+        "ajanda"
+      ],
+      "durum": "packaged",
+      "paket": "lifeos-ajanda",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-editor",
+      "ad": "LifeOS Editör",
+      "kisa_aciklama": "Boş bir UDF belgesiyle dilekçe ve belge düzenlemeye başla.",
+      "uzun_aciklama": "Boş bir UDF belgesiyle dilekçe ve belge düzenlemeye başla.",
+      "ozellikler": [
+        "Boş UDF belgesi aç",
+        "Dilekçe ve belge düzenle"
+      ],
+      "kategori": "Ofis ve hukuk",
+      "ikon": "/img/ikonlar/com.erkanoz.lifeos_editor.png",
+      "ikon_kaynagi": "/usr/share/icons/hicolor/256x256/apps/com.erkanoz.lifeos_editor.png",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "/usr/share/applications/com.erkanoz.lifeos_editor.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-editor"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-hesap",
+      "ad": "LifeOS Hesap",
+      "kisa_aciklama": "Hesap makinesi, TCMB döviz, tarih, faiz ve kira yenileme araçları.",
+      "uzun_aciklama": "Hesap makinesi, TCMB döviz, tarih, faiz ve kira yenileme araçları.",
+      "ozellikler": [
+        "Hesap makinesi",
+        "TCMB döviz bilgileri",
+        "Tarih, faiz ve kira yenileme hesapları"
+      ],
+      "kategori": "Günlük araçlar",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Hesap.svg",
+      "ikon_kaynagi": "/usr/share/icons/hicolor/scalable/apps/tr.com.lifeos.Hesap.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "/usr/share/applications/tr.com.lifeos.Hesap.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-hesap"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-sistem",
+      "ad": "LifeOS Sistem",
+      "kisa_aciklama": "Açık uygulamaları, çalışan görevleri ve bilgisayarının performansını gör.",
+      "uzun_aciklama": "Açık uygulamaları, çalışan görevleri ve bilgisayarının performansını gör.",
+      "ozellikler": [
+        "Açık uygulamalar ve çalışan görevler",
+        "İşlemci ve bellek kullanımı",
+        "Uygulamayı kapatma ve güç işlemleri"
+      ],
+      "kategori": "Sistem",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Sistem.svg",
+      "ikon_kaynagi": "design/branding/apps/tr.com.lifeos.Sistem.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-sistem",
+        "docs/manager.md#LifeOS Sistem",
+        "apps/sistem/",
+        "/usr/share/applications/tr.com.lifeos.Sistem.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-sistem"
+      ],
+      "uygulama_dizinleri": [
+        "sistem"
+      ],
+      "durum": "packaged",
+      "paket": "lifeos-sistem",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-suruculer",
+      "ad": "LifeOS Donanım Merkezi",
+      "kisa_aciklama": "Donanım envanterini ve sürücü kaynaklarını incele.",
+      "uzun_aciklama": "Donanım envanterini ve sürücü kaynaklarını incele.",
+      "ozellikler": [
+        "Donanım envanteri",
+        "Sürücü kaynakları"
+      ],
+      "kategori": "Sistem",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Suruculer.svg",
+      "ikon_kaynagi": "/usr/share/icons/hicolor/scalable/apps/tr.com.lifeos.Suruculer.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "/usr/share/applications/tr.com.lifeos.Suruculer.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-suruculer"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-usb",
+      "ad": "LifeOS USB Oluşturucu",
+      "kisa_aciklama": "En yeni LifeOS sürümünü indir ve USB belleğe yaz.",
+      "uzun_aciklama": "En yeni LifeOS sürümünü indir ve USB belleğe yaz.",
+      "ozellikler": [
+        "LifeOS sürümünü indirme",
+        "USB belleğe yazma"
+      ],
+      "kategori": "Sistem",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Usb.svg",
+      "ikon_kaynagi": "/usr/share/icons/hicolor/scalable/apps/tr.com.lifeos.Usb.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "/usr/share/applications/tr.com.lifeos.Usb.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-usb"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-muzik",
+      "ad": "LifeOS Müzik",
+      "kisa_aciklama": "Müziğini, çalma listelerini ve YouTube Music’i bir arada kullan.",
+      "uzun_aciklama": "Müziğini, çalma listelerini ve YouTube Music’i bir arada kullan.",
+      "ozellikler": [
+        "Müzik ve çalma listeleri",
+        "YouTube Music"
+      ],
+      "kategori": "Medya",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Muzik.svg",
+      "ikon_kaynagi": "/usr/share/icons/hicolor/scalable/apps/tr.com.lifeos.Muzik.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "/usr/share/applications/tr.com.lifeos.Muzik.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-muzik"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-player",
+      "ad": "LifeOS Player",
+      "kisa_aciklama": "Video ve IPTV içeriklerini oynat.",
+      "uzun_aciklama": "Video ve IPTV içeriklerini oynat.",
+      "ozellikler": [
+        "Video oynatma",
+        "IPTV"
+      ],
+      "kategori": "Medya",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Player.svg",
+      "ikon_kaynagi": "/usr/share/icons/hicolor/scalable/apps/tr.com.lifeos.Player.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "/usr/share/applications/tr.com.lifeos.Player.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-player"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-karsilama",
+      "ad": "LifeOS Karşılama",
+      "kisa_aciklama": "Görünümünü, hesaplarını ve uygulamalarını ilk açılışta ayarla.",
+      "uzun_aciklama": "Görünümünü, hesaplarını ve uygulamalarını ilk açılışta ayarla.",
+      "ozellikler": [
+        "Açık/koyu görünüm ve pencere düğmeleri",
+        "Google Takvim, Drive ve OneDrive hesap adımları",
+        "İlk kurulumdaki uygulamaların durumu"
+      ],
+      "kategori": "Sistem",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Karsilama.svg",
+      "ikon_kaynagi": "design/branding/apps/tr.com.lifeos.Karsilama.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-karsilama",
+        "docs/kurulum.md#İlk açılış",
+        "apps/karsilama/"
+      ],
+      "komutlar": [
+        "lifeos-karsilama"
+      ],
+      "uygulama_dizinleri": [
+        "karsilama"
+      ],
+      "durum": "packaged",
+      "paket": "lifeos-karsilama",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-ekip",
+      "ad": "LifeOS Ekip",
+      "kisa_aciklama": "Claude’un yönettiği yapay zekâ ekibinin konuşmalarını izle.",
+      "uzun_aciklama": "Claude’un yönettiği yapay zekâ ekibinin konuşmalarını izle.",
+      "ozellikler": [
+        "Yapay zekâ ekibi",
+        "Görünür ekip konuşmaları"
+      ],
+      "kategori": "Geliştirme",
+      "ikon": "/img/marka/lifeos-symbol.svg",
+      "ikon_kaynagi": "design/branding/lifeos-symbol.svg (ortak marka amblemi; özel uygulama ikonu bulunamadı)",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "/usr/share/applications/tr.com.lifeos.Ekip.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-ekip"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-whatsapp",
+      "ad": "LifeOS WhatsApp paneli",
+      "kisa_aciklama": "WhatsApp Web’i ve LifeOS indirmelerini aynı panelden aç.",
+      "uzun_aciklama": "WhatsApp Web’i ve LifeOS indirmelerini aynı panelden aç.",
+      "ozellikler": [
+        "WhatsApp Web",
+        "LifeOS indirmeleri"
+      ],
+      "kategori": "İletişim",
+      "ikon": "/img/ikonlar/tr.com.lifeos.WhatsApp.svg",
+      "ikon_kaynagi": "/usr/share/icons/hicolor/scalable/apps/tr.com.lifeos.WhatsApp.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "/usr/share/applications/tr.com.lifeos.WhatsApp.desktop (Name, Comment)"
+      ],
+      "komutlar": [
+        "lifeos-whatsapp"
+      ],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-paneller",
+      "ad": "LifeOS Paneller",
+      "kisa_aciklama": "Saat, ajanda, bildirimler ve hızlı ayarlar Plasma panelinde.",
+      "uzun_aciklama": "Saat, ajanda, bildirimler ve hızlı ayarlar Plasma panelinde.",
+      "ozellikler": [
+        "Takvim ve bildirim merkezi",
+        "Wi-Fi, Bluetooth ve hızlı ayarlar",
+        "Uygulama başına ses ve medya denetimleri"
+      ],
+      "kategori": "Masaüstü",
+      "ikon": "/img/ikonlar/lifeos-paneller.svg",
+      "ikon_kaynagi": "catalog/media/lifeos-paneller.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-paneller",
+        "docs/masaustu.md",
+        "apps/paneller/"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [
+        "paneller"
+      ],
+      "durum": "packaged",
+      "paket": "lifeos-paneller",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-masaustu",
+      "ad": "LifeOS Masaüstü",
+      "kisa_aciklama": "Sağ tık menüsünden hızlı işlere ve kişiselleştirmeye ulaş.",
+      "uzun_aciklama": "Sağ tık menüsünden hızlı işlere ve kişiselleştirmeye ulaş.",
+      "ozellikler": [
+        "Sağ tık menüsü",
+        "Hızlı aç ve kişiselleştirme"
+      ],
+      "kategori": "Masaüstü",
+      "ikon": "/img/ikonlar/lifeos-masaustu.svg",
+      "ikon_kaynagi": "catalog/media/lifeos-masaustu.svg",
+      "ekran_goruntuleri": [
+        {
+          "dosya": "/img/ekran/masaustu-gun.webp",
+          "alt": "LifeOS açık masaüstü tasarımı: dosyalar, konsol ve bildirim",
+          "telefon": false
+        },
+        {
+          "dosya": "/img/ekran/masaustu-gece.webp",
+          "alt": "LifeOS koyu masaüstü tasarımı: dosyalar, konsol ve bildirim",
+          "telefon": false
+        }
+      ],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-masaustu",
+        "apps/masaustu/"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [
+        "masaustu"
+      ],
+      "durum": "packaged",
+      "paket": "lifeos-masaustu",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-temalar",
+      "ad": "LifeOS Temalar",
+      "kisa_aciklama": "Masaüstü renklerini, duvar kâğıdını, açılış ve giriş görünümünü birlikte değiştir.",
+      "uzun_aciklama": "Masaüstü renklerini, duvar kâğıdını, açılış ve giriş görünümünü birlikte değiştir.",
+      "ozellikler": [
+        "Dokuz masaüstü teması",
+        "Duvar kâğıdı ve renkler",
+        "Açılış ve giriş ekranı görünümü"
+      ],
+      "kategori": "Masaüstü",
+      "ikon": "/img/ikonlar/lifeos-temalar.svg",
+      "ikon_kaynagi": "catalog/media/lifeos-temalar.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-temalar",
+        "docs/masaustu.md"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "packaged",
+      "paket": "lifeos-temalar",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-izin",
+      "ad": "LifeOS İzin",
+      "kisa_aciklama": "Bir uygulama yönetici yetkisi istediğinde işlem açıklamasını ve parola isteğini gör.",
+      "uzun_aciklama": "Bir uygulama yönetici yetkisi istediğinde işlem açıklamasını ve parola isteğini gör. Gerçek polkit doğrulaması ve parmak izi testleri kaynak belgede henüz tamamlanmamış olarak kayıtlı.",
+      "ozellikler": [
+        "Yetki isteyen uygulama ve işlem bilgisi",
+        "Parola alanı ve ayrıntılar"
+      ],
+      "kategori": "Sistem",
+      "ikon": "/img/marka/lifeos-symbol.svg",
+      "ikon_kaynagi": "design/branding/lifeos-symbol.svg (ortak marka amblemi; özel uygulama ikonu bulunamadı)",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "docs/izin.md",
+        "apps/izin/"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [
+        "izin"
+      ],
+      "durum": "testing",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-destek-ekibi",
+      "ad": "LifeOS Destek Ekibi",
+      "kisa_aciklama": "Destek veren kişileri ve bilgisayarları gösteren ayrı destek uygulaması.",
+      "uzun_aciklama": "Destek veren kişileri ve bilgisayarları gösteren ayrı destek uygulaması.",
+      "ozellikler": [
+        "Destek veren kişiler",
+        "Destek bilgisayarları"
+      ],
+      "kategori": "Sistem",
+      "ikon": "/img/marka/lifeos-symbol.svg",
+      "ikon_kaynagi": "design/branding/lifeos-symbol.svg (ortak marka amblemi; özel uygulama ikonu bulunamadı)",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "apps/destek-ekibi/tr.com.lifeos.DestekEkibi.desktop",
+        "apps/destek-ekibi/lifeos_destek_ekibi/__main__.py"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [
+        "destek-ekibi"
+      ],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-cli",
+      "ad": "lifeos — Komut satırı ve servis",
+      "kisa_aciklama": "Paket, servis, ağ ve sistem yönetimini ortak komut katmanından yap.",
+      "uzun_aciklama": "Paket, servis, ağ ve sistem yönetimini ortak komut katmanından yap.",
+      "ozellikler": [
+        "Türkçe komut aileleri ve JSON çıktısı",
+        "Mağaza ve Yönetim ile ortak işlem katmanı",
+        "Yapay zekâ araçları için MCP bağlantısı"
+      ],
+      "kategori": "Geliştirme",
+      "ikon": "/img/ikonlar/tr.com.lifeos.Magaza.svg",
+      "ikon_kaynagi": "design/branding/apps/tr.com.lifeos.Magaza.svg",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-cli",
+        "docs/cli.md",
+        "docs/servis.md"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "packaged",
+      "paket": "lifeos",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-yakin",
+      "ad": "LifeOS Yakındakiler",
+      "kisa_aciklama": "Aynı ağdaki AnyWhere ve LifeOS cihazlarıyla dosya ve pano paylaş.",
+      "uzun_aciklama": "Aynı ağdaki AnyWhere ve LifeOS cihazlarıyla dosya ve pano paylaş. Yerel aktarım HTTP kullanır; içerik şifrelenmez. İki gerçek cihaz arasındaki test kaynak belgede henüz tamamlanmamış olarak kayıtlı.",
+      "ozellikler": [
+        "Cihaz eşleştirme ve dosya aktarımı",
+        "Ada ve Dolphin üzerinden erişim"
+      ],
+      "kategori": "İletişim",
+      "ikon": "/img/marka/lifeos-symbol.svg",
+      "ikon_kaynagi": "design/branding/lifeos-symbol.svg (ortak marka amblemi; özel uygulama ikonu bulunamadı)",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "docs/yakin.md"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "installed",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-language-tr",
+      "ad": "LifeOS Türkçe Dil Araçları",
+      "kisa_aciklama": "Türkçe yazım, hukuk terimleri ve yerel dil hizmeti için tasarlanan araçlar.",
+      "uzun_aciklama": "Türkçe yazım, hukuk terimleri ve yerel dil hizmeti için tasarlanan araçlar.",
+      "ozellikler": [
+        "Türkçe yazım sözlüğü hedefi",
+        "Hukuk terimleri sözlüğü hedefi"
+      ],
+      "kategori": "Ofis ve hukuk",
+      "ikon": "/img/marka/lifeos-symbol.svg",
+      "ikon_kaynagi": "design/branding/lifeos-symbol.svg (ortak marka amblemi; özel uygulama ikonu bulunamadı)",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-language-tr"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "design",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-java-manager",
+      "ad": "LifeOS Java Yöneticisi",
+      "kisa_aciklama": "Uygulamaya göre Java seçimi için tasarlanan yönetim aracı.",
+      "uzun_aciklama": "Uygulamaya göre Java seçimi için tasarlanan yönetim aracı.",
+      "ozellikler": [
+        "Java yönetimi hedefi"
+      ],
+      "kategori": "Sistem",
+      "ikon": "/img/marka/lifeos-symbol.svg",
+      "ikon_kaynagi": "design/branding/lifeos-symbol.svg (ortak marka amblemi; özel uygulama ikonu bulunamadı)",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-java-manager",
+        "catalog/installer.json#java"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "design",
+      "one_cikan": false
+    },
+    {
+      "id": "lifeos-setup",
+      "ad": "LifeOS Başlangıç ve Görünüm",
+      "kisa_aciklama": "İlk girişte masaüstü düzeni ve görünüm seçimi için tasarlanan araç.",
+      "uzun_aciklama": "İlk girişte masaüstü düzeni ve görünüm seçimi için tasarlanan araç.",
+      "ozellikler": [
+        "Denge, Klasik ve Odak düzenleri"
+      ],
+      "kategori": "Masaüstü",
+      "ikon": "/img/marka/lifeos-symbol.svg",
+      "ikon_kaynagi": "design/branding/lifeos-symbol.svg (ortak marka amblemi; özel uygulama ikonu bulunamadı)",
+      "ekran_goruntuleri": [],
+      "kaynaklar": [
+        "catalog/apps.json#lifeos-setup",
+        "docs/masaustu.md"
+      ],
+      "komutlar": [],
+      "uygulama_dizinleri": [],
+      "durum": "design",
+      "one_cikan": false
+    }
+  ],
+  "sistem": {
+    "gereksinimler": {
+      "Mimari": "x86_64",
+      "Önyükleme": "UEFI; Secure Boot kapalı",
+      "Bellek": "2 GiB (kurulum denetimi)",
+      "Boş alan": "16 GB (kurulum denetimi)"
+    },
+    "kaynaklar": [
+      "catalog/installer.json",
+      "docs/kurulum.md",
+      "iso/airootfs/etc/calamares/modules/welcomeq.conf"
+    ],
+    "kurulum_profilleri": [
+      {
+        "id": "standard",
+        "ad": "Standart kurulum",
+        "kime": "Günlük kullanım ve belge işleri için.",
+        "uygulamalar": [
+          "Türkçe Plasma, Yönetim, Mağaza, Sistem ve Konsol",
+          "LifeOS Ofis",
+          "Chrome, Opera, Whatsie ve NAPS2",
+          "Windows yazı tipleri ve medya kodekleri"
+        ],
+        "ayar": "UDF, Word, ODT, RTF, PDF ve .imz belgeleri için LifeOS Ofis.",
+        "kaynaklar": [
+          "catalog/installer.json#profiles.standard",
+          "docs/kurulum.md#28.10.2026"
+        ]
+      },
+      {
+        "id": "lawyer",
+        "ad": "Avukat kurulumu",
+        "kime": "Dava dosyaları, dilekçeler ve büro işleri için.",
+        "uygulamalar": [
+          "Standart kurulumun internet ve tarama araçları",
+          "LifeOS Ofis yerine LifeOS Folio",
+          "UYAP Editör, Adalet e-İmza, Akia ve OpenWebStart",
+          "Java 8, güncel Java, LibreOffice ve Türkçe dil araçları"
+        ],
+        "ayar": "Folio için isteğe bağlı avukat ve büro bilgileri; UYAP Editör için Java 8.",
+        "kaynaklar": [
+          "catalog/installer.json#profiles.lawyer",
+          "docs/kurulum.md#28.10.2026"
+        ]
+      }
+    ],
+    "kurulum_adimlari": [
+      "LifeOS kurulum medyasından Türkçe canlı masaüstünü aç.",
+      "LifeOS’u Kur ile Standart veya Avukat profilini seç.",
+      "Disk ve kullanıcı seçimlerini gözden geçir; özeti kontrol et.",
+      "İlk açılışta Karşılama’dan görünümünü, hesaplarını ve uygulamaların durumunu ayarla."
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+
+/* lifeosweb'e özgü: sitenin genel başlık yazı tipi (Source Serif) LifeOS sayfalarına geçmesin. */
+.linux{font-family:Inter,-apple-system,BlinkMacSystemFont,system-ui,sans-serif;-webkit-font-smoothing:antialiased;background:var(--zemin);color:var(--metin);min-height:100vh;overflow-x:clip}
+.linux :is(h1,h2,h3){font-family:inherit;color:inherit}
+.linux :is(ul,ol){margin:0}
+.linux a{color:inherit;text-decoration:none}
+.linux button{font:inherit}
+.linux img{height:auto}
+/* Manzara: ana sayfada manzara menünün altından başlar; menü burada saydamdır. */
+.linux[data-tema="manzara"] .hero{margin-top:-72px}
+.linux[data-tema="sistem"] .hero{padding-top:86px}
+.linux[data-tema="gece"] .hero{padding-top:110px}
+.linux .page{padding-top:110px}
+@media(max-width:600px){
+  .linux[data-tema="manzara"] .hero{margin-top:-64px}
+  .linux[data-tema="sistem"] .hero{padding-top:60px}
+  .linux[data-tema="gece"] .hero{padding-top:70px}
+  .linux .page{padding-top:76px}
+}
+/* İndirme bölümü: ISO yayımlanana kadar düğme pasif, kurulum denetimleri yanında. */
+.linux .download .eyebrow{color:var(--soluk);margin-bottom:24px}
+.linux .download-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px;margin-top:34px}
+.linux[data-tema="sistem"] .download-actions,.linux[data-tema="gece"] .download-actions{justify-content:center}
+.linux .button.is-disabled{opacity:.55;cursor:default;transform:none;box-shadow:none}
+.linux .download .requirements{margin-top:56px;max-width:560px;text-align:left}
+.linux[data-tema="sistem"] .download .requirements,.linux[data-tema="gece"] .download .requirements{margin-inline:auto}
+.linux .requirements h3{font-size:20px;font-weight:600;letter-spacing:-.02em}
+.linux .download .requirements>p{font-size:12px;max-width:none}
+/* Sabit menünün altında kalmasın: #ada, #kurulum, #linux-indir bağlantıları. */
+.linux [id]{scroll-margin-top:88px}
+/* Ada: depodaki gerçek Ada görselleri, sekmelerle (design/tanitim). */
+.linux .ada-galeri{min-width:0}
+.linux .ada-gorsel{position:relative;margin:0;border-radius:24px;overflow:hidden;background:var(--yuzey-2);box-shadow:var(--golge)}
+.linux .ada-gorsel img{width:100%;height:auto;display:block}
+.linux .ada-galeri .ada-tabs{display:flex;flex-wrap:wrap;gap:6px;padding:0;margin-top:18px;border:0}
+.linux .ada-galeri .ada-tabs button{flex:none;min-height:36px;padding:0 14px;border-radius:100px;border:1px solid var(--cizgi);background:var(--yuzey);color:var(--soluk);font-size:12px;font-weight:550}
+.linux .ada-galeri .ada-tabs button[aria-selected=true]{background:var(--metin);color:var(--zemin);border-color:var(--metin)}
+.linux[data-tema="manzara"] .ada-gorsel{box-shadow:0 20px 65px #5a655426}
+.linux[data-tema="gece"] .ada-gorsel{box-shadow:0 0 0 1px #b79bdb2e,0 40px 90px #000c,0 0 70px #9562dd1f}
+@media(max-width:600px){.linux .ada-gorsel{border-radius:14px}.linux .ada-galeri .ada-tabs button{padding:0 11px;font-size:11px}}
+/* Folio'nun kapsamı: yalnızca Türkiye Cumhuriyeti hukuk sistemi. */
+.linux .kapsam-notu{display:inline-block;margin-top:22px;padding:8px 14px;border-radius:12px;border:1px solid var(--cizgi);background:var(--yuzey);font-size:13px;line-height:1.5;color:var(--metin);max-width:460px}
+.linux .feature-copy .kapsam-notu+.feature-points{margin-top:18px}
+.linux .detail-description+.kapsam-notu{margin-top:20px}
+/* Ada görselleri tam dikdörtgen ve geniş: Ada çubuğu okunsun diye bölüm tek sütun, görsel 1180 px'e kadar. */
+.linux .ada-section:has(.ada-galeri){grid-template-columns:1fr;gap:48px}
+.linux .ada-section:has(.ada-galeri) .section-head{display:grid;grid-template-columns:1fr 1fr;column-gap:8%;align-items:end}
+.linux .ada-section:has(.ada-galeri) .section-head .eyebrow{grid-column:1/-1}
+.linux .ada-section:has(.ada-galeri) .section-head>p:not(.eyebrow){margin-top:0;max-width:460px}
+.linux .ada-section:has(.ada-galeri) .ada-points{grid-column:2}
+.linux .ada-galeri{width:100%;max-width:1180px;margin-inline:auto}
+.linux .ada-gorsel{border-radius:16px}
+.linux[data-tema="sistem"] .ada-section:has(.ada-galeri) .section-head{text-align:left}
+@media(max-width:1000px){.linux .ada-section:has(.ada-galeri) .section-head{display:block}.linux .ada-section:has(.ada-galeri) .section-head>p:not(.eyebrow){margin-top:20px}}
+/* ISO indirme ve kurulum belleği rehberi (LifeOS kullanmayanlar için). */
+.linux .iso-indir{margin:40px 0 28px;max-width:760px;padding:32px;border-radius:26px;background:var(--yuzey);border:1px solid var(--cizgi);box-shadow:var(--golge);text-align:left}
+.linux[data-tema="sistem"] .iso-indir,.linux[data-tema="gece"] .iso-indir{margin-inline:auto}
+.linux .iso-durum{font-size:14px;color:var(--soluk);margin:24px 0}
+.linux .iso-indir .iso-durum{margin:0 0 18px}
+.linux .iso-baslik{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+.linux .iso-baslik h3{font-size:24px;font-weight:600;letter-spacing:-.03em}
+.linux .iso-baslik h3 span{color:var(--soluk);font-weight:500}
+.linux .iso-etiket{font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:var(--yuzey-2);color:var(--vurgu)}
+.linux .download .iso-indir p{max-width:none;margin-top:12px;font-size:14px;color:var(--soluk)}
+.linux .iso-parcalar{list-style:none;padding:0;margin:18px 0 0}
+.linux .iso-parcalar a{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-top:1px solid var(--cizgi);font-size:13px;font-weight:550}
+.linux .iso-parcalar a span{overflow-wrap:anywhere}
+.linux .iso-parcalar a:hover span{text-decoration:underline;text-underline-offset:3px}
+.linux .iso-parcalar small{color:var(--soluk);white-space:nowrap}
+.linux .iso-ozet{margin:0 0 10px;padding:12px 0;border-top:1px solid var(--cizgi);border-bottom:1px solid var(--cizgi);font-size:13px}
+.linux .iso-ozet div{display:grid;grid-template-columns:80px 1fr;gap:12px}
+.linux .iso-ozet dt{color:var(--soluk);font-weight:600}
+.linux .iso-ozet dd{margin:0}
+.linux .iso-ozet code,.linux .iso-rehber code{font-family:ui-monospace,'JetBrains Mono',monospace;font-size:12px;overflow-wrap:anywhere}
+.linux .iso-rehber-baslik{font-size:18px;font-weight:600;letter-spacing:-.02em;margin-top:30px}
+.linux .iso-sistemler{display:flex;gap:6px;margin-top:14px}
+.linux .iso-sistemler button{min-height:36px;padding:0 14px;border-radius:100px;border:1px solid var(--cizgi);background:transparent;color:var(--soluk);font-size:12px;font-weight:550}
+.linux .iso-sistemler button[aria-selected=true]{background:var(--metin);color:var(--zemin);border-color:var(--metin)}
+.linux .iso-rehber{margin:18px 0 0;padding:0;list-style:none;counter-reset:adim}
+.linux .iso-rehber li{counter-increment:adim;position:relative;padding:0 0 18px 40px}
+.linux .iso-rehber li:before{content:counter(adim);position:absolute;left:0;top:0;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--yuzey-2);font-size:12px;font-weight:650}
+.linux .iso-rehber strong{font-size:14px;font-weight:600}
+.linux .download .iso-rehber p{margin-top:4px;font-size:13px}
+.linux .iso-rehber pre{margin:10px 0 0;padding:12px 14px;border-radius:12px;background:#15151a;color:#ecebf2;white-space:pre-wrap;overflow-x:auto}
+.linux .download .iso-lifeos{font-size:13px;padding-top:14px;border-top:1px solid var(--cizgi);margin-top:6px}
+@media(max-width:600px){.linux .iso-indir{padding:22px 18px;border-radius:20px}.linux .iso-ozet div{grid-template-columns:1fr;gap:4px}}

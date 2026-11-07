@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f4ee" />
+    <link id="site-favicon" rel="icon" type="image/svg+xml" href="/img/marka/lifeos-symbol-ink.svg" />
+    <script>
+      (() => {
+        const read = (key, allowed, fallback) => { try { const value = localStorage.getItem(key); return allowed.includes(value) ? value : fallback; } catch { return fallback; } };
+        const root = document.documentElement;
+        root.dataset.tema = read('lifeos-tema', ['manzara', 'sistem', 'gece'], matchMedia('(prefers-color-scheme: dark)').matches ? 'gece' : 'manzara');
+        const motion = read('lifeos-hareket', ['sistem', 'azalt', 'tam'], 'sistem');
+        root.dataset.hareket = motion === 'azalt' || (motion === 'sistem' && matchMedia('(prefers-reduced-motion: reduce)').matches) ? 'azalt' : 'tam';
+        root.dataset.yazi = read('lifeos-yazi', ['normal', 'buyuk'], 'normal');
+        root.style.colorScheme = root.dataset.tema === 'gece' ? 'dark' : 'light';
+      })();
+    </script>
+    <meta name="description" content="LifeOS Linux ve kendi uygulamaları. Masaüstünü, araçları ve kurulum bilgilerini inceleyin." />
+    <title>LifeOS Linux — Kendi araçlarıyla bir masaüstü</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

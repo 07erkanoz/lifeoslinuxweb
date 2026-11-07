@@ -1,0 +1,77 @@
+{
+  "gereksinimler": [
+    {
+      "ad": "Mimari",
+      "deger": "x86_64",
+      "kaynak": "catalog/installer.json:40"
+    },
+    {
+      "ad": "Önyükleme",
+      "deger": "UEFI / GPT",
+      "kaynak": "catalog/installer.json:40"
+    },
+    {
+      "ad": "Bellek",
+      "deger": "2 GiB kurulum eşiği",
+      "kaynak": "iso/airootfs/etc/calamares/modules/welcomeq.conf:7"
+    },
+    {
+      "ad": "Boş alan",
+      "deger": "16 GB kurulum eşiği",
+      "kaynak": "iso/airootfs/etc/calamares/modules/welcomeq.conf:6"
+    },
+    {
+      "ad": "Dosya sistemi",
+      "deger": "Btrfs, ayrı ext4 /boot",
+      "kaynak": "iso/airootfs/etc/calamares/modules/partition.conf:10-11,17-22"
+    }
+  ],
+  "profiller": [
+    {
+      "id": "standard",
+      "ad": "Standart kurulum",
+      "kime": "Günlük kullanım ve belge işleri için.",
+      "uygulamalar": [
+        "Türkçe Plasma ve LifeOS uygulamaları",
+        "Belge uygulaması: LifeOS Ofis",
+        "Google Chrome, Opera, Whatsie ve NAPS2",
+        "Windows yazı tipleri ve medya kodekleri"
+      ],
+      "not": "Word, UDF ve PDF belgelerini LifeOS Ofis’te aç.",
+      "kaynaklar": [
+        "catalog/installer.json:71",
+        "catalog/installer.json:73"
+      ]
+    },
+    {
+      "id": "lawyer",
+      "ad": "Avukat kurulumu",
+      "kime": "Türkiye’de avukatlık için: dava dosyaları, dilekçeler ve büro işleri.",
+      "uygulamalar": [
+        "Standart kurulumun internet ve tarama araçları",
+        "Belge uygulaması: LifeOS Ofis yerine LifeOS Folio, Türkiye Cumhuriyeti hukuk sistemine özel (UYAP, UETS, e-imza)",
+        "UYAP Editör, Adalet e-İmza, Akia, OpenWebStart",
+        "Java 8, güncel Java, LibreOffice ve Türkçe dil araçları",
+        "iPhone/iPad bağlayıcı ve Evince belge görüntüleyici"
+      ],
+      "not": "Folio için avukat ve büro bilgilerini istersen ekle.",
+      "kaynaklar": [
+        "catalog/installer.json:80",
+        "catalog/installer.json:81",
+        "catalog/installer.json:95",
+        "apps/karsilama/lifeos_karsilama/backend.py:18"
+      ]
+    }
+  ],
+  "ilk_acilis": "Bazı uygulamalar ilk açılışta internet bağlantısıyla kurulur. Durumlarını LifeOS Karşılama’dan izleyebilirsin.",
+  "ilk_acilis_kaynaklar": [
+    "catalog/installer.json:178",
+    "catalog/installer.json:205",
+    "apps/karsilama/lifeos_karsilama/backend.py:48"
+  ],
+  "guvenlik_notu": "Secure Boot imzalama ve entegrasyonu tamamlanmadı. Kurulumda disk şifreleme seçeneği bu yapılandırmada kapalıdır.",
+  "guvenlik_kaynaklar": [
+    "catalog/installer.json:43",
+    "iso/airootfs/etc/calamares/modules/partition.conf:13"
+  ]
+}

@@ -1,0 +1,40 @@
+import { Link } from 'react-router-dom';
+import { Ekran, Ikon, Meta, Ok, UygulamaSatiri } from '../bilesenler/Ortak.jsx';
+import { uygulamalar, uygulamaYolu, dosyaYolu } from '../veri/index.js';
+import { useTema } from '../tema/TemaContext.jsx';
+import { anaSiteYolu, metin } from '../veri/metinler.js';
+import Ada from '../bilesenler/Ada.jsx';
+import { KurulumProfilleri, Gereksinimler, IndirmeBilgisi } from './Indir.jsx';
+
+const oncelik = ['lifeos-ada', 'lifeos-manager', 'lifeos-konsol', 'lifeos-folio', 'lifeos-ofis', 'lifeos-yayin'];
+const ihtiyaclar = [
+  ['Kurulum', 'USB belleğini hazırla; ilk açılışta görünümünü ve hesaplarını ayarla.', ['lifeos-usb', 'lifeos-karsilama']],
+  ['Güncelleme ve mağaza', 'Uygulamaları bul, güncellemeleri ve sürüm seçeneklerini incele.', ['lifeos-store']],
+  ['Sürücüler ve donanım', 'Aygıt envanterini, sürücü kaynaklarını ve yazıcı durumunu gör.', ['lifeos-suruculer', 'lifeos-manager']],
+  ['Sistem izleme', 'Açık uygulamaları, görevleri ve bilgisayarının kaynak kullanımını izle.', ['lifeos-sistem']],
+  ['Yedekleme ve güvenlik', 'Sistem geri yükleme ve güvenlik seçeneklerini incele. Anlık görüntüler ayrı bir diskteki belge yedeğinin yerini tutmaz.', ['lifeos-manager', 'lifeos-cli']],
+  ['Türkçe ve yerel ihtiyaçlar', 'UYAP belgeleri, e-imza araçlarının durumu ve TCMB döviz bilgileri için kendi araçlarını kullan.', ['lifeos-ofis', 'lifeos-folio', 'lifeos-hesap']],
+];
+
+function UygulamaBloku({ app, ters }) {
+  const gorsel = app.ekran_goruntuleri.find(g => !g.telefon);
+  const tanitim = metin.tanitim[app.id];
+  return <article className={`feature app-feature${ters ? ' ters' : ''}${gorsel ? '' : ' icon-feature'}`} aria-labelledby={`vitrin-${app.id}`}><div className="shell feature-layout"><div className="feature-copy reveal"><p className="eyebrow"><Ikon src={app.ikon} ad={app.ad} />{app.ad}</p><h3 id={`vitrin-${app.id}`}>{app.kisa_aciklama}</h3><ul className="feature-points">{app.ozellikler.slice(0, 3).map(o => <li key={o}>{o}</li>)}</ul><div className="feature-links"><Link className="text-link" to={uygulamaYolu(app.id)}>{metin.uygulamayiIncele} <Ok /></Link>{tanitim && <a className="text-link" href={anaSiteYolu(tanitim)}>{metin.ayrintiliTanitim} <Ok /></a>}</div></div>{gorsel ? <figure className="folio-screen reveal"><Link to={uygulamaYolu(app.id)} aria-label={`${app.ad} görsellerini incele`}><img src={dosyaYolu(gorsel.dosya)} alt={gorsel.alt} loading="lazy" /></Link>{gorsel.tasarim && <figcaption className="design-caption">Uygulama tasarımı</figcaption>}</figure> : <div className="feature-symbol reveal" aria-hidden="true"><Ikon src={app.ikon} ad={app.ad} /><span>{app.ad}</span><p>{app.ozellikler.slice(0, 2).join(' · ')}</p></div>}</div></article>;
+}
+
+export default function AnaSayfa() {
+  const { tema } = useTema();
+  const mobil = ['lifeos-kupler', 'lifeos-folio'].map(id => uygulamalar.find(a => a.id === id));
+  return <>
+    <Meta baslik="Kendi araçlarıyla bir Linux masaüstü" aciklama="LifeOS Linux: Ada, Yönetim, Konsol, Folio, Ofis ve Yayınla. Standart ve Avukat kurulumları, masaüstü ve mobil uygulamalar." />
+    <section className="hero" aria-labelledby="ana-baslik"><div className="hero-copy"><p className="eyebrow">KENDİ UYGULAMALARIYLA BİR LINUX MASAÜSTÜ</p><h1 id="ana-baslik">LifeOS Linux.</h1><p>Ada’dan Folio’ya, günlük işlerin için geliştirilen araçlar. Aynı masaüstünde, bir arada.</p><div className="actions"><Link className="button" to="/indir">LifeOS’u indir <Ok yon="asagi" /></Link><Link className="text-link" to="/#ada">Masaüstünü tanı <Ok /></Link></div></div><figure className="hero-screen"><img src={dosyaYolu(`/img/tasarim/masaustu-${tema === 'gece' ? 'gece' : 'gun'}.png`)} width="1920" height="1200" fetchPriority="high" alt="LifeOS masaüstü: dosya penceresi, bildirim alanı ve uygulama doku" /><figcaption className="screen-caption"><span>KDE PLASMA · LIFEOS ARAÇLARI</span><span>DOSYALAR, BİLDİRİMLER VE UYGULAMALAR</span></figcaption></figure></section>
+    <section id="ada" className="section shell ada-section" aria-labelledby="ada-baslik"><div className="section-head reveal"><p className="eyebrow">LIFEOS ADA</p><h2 id="ada-baslik">Küçük bir ada.<br />Günün bir arada.</h2><p>Saat, bildirimler, medya, hızlı ayarlar ve ajanda. Ekranın üstünde; ihtiyaç duyduğunda açılır, işine döndüğünde çekilir.</p><ul className="ada-points"><li>Bildirimler</li><li>Medya</li><li>Hızlı ayarlar</li><li>Ajanda</li></ul></div><Ada /></section>
+    <section id="one-cikanlar" className="featured-apps" aria-labelledby="vitrin-baslik"><div className="shell section-head featured-title reveal"><p className="eyebrow">LIFEOS UYGULAMALARI</p><h2 id="vitrin-baslik">Kendi araçların.<br />Aynı masaüstünde.</h2></div>{oncelik.map(id => uygulamalar.find(a => a.id === id)).filter(Boolean).map((app, i) => <UygulamaBloku app={app} ters={i % 2 === 1} key={app.id} />)}</section>
+    <KurulumProfilleri />
+    <section id="sistem" className="section shell needs" aria-labelledby="ihtiyac-baslik"><div className="section-head reveal"><p className="eyebrow">SİSTEM VE GÜNLÜK İŞLER</p><h2 id="ihtiyac-baslik">Bir işletim sisteminde<br />olması gerekenler.</h2></div><dl className="needs-list reveal">{ihtiyaclar.map(([ad, metin, ids]) => <div key={ad}><dt>{ad}</dt><dd><p>{metin}</p><div className="tool-links">{ids.map(id => {const a = uygulamalar.find(a => a.id === id); return a && <Link key={id} to={uygulamaYolu(id)}>{a.ad} ↗</Link>;})}</div></dd></div>)}</dl></section>
+    <section id="uygulamalar" className="apps section" aria-labelledby="diger-baslik"><div className="shell"><div className="app-head reveal"><h2 id="diger-baslik">Diğer LifeOS<br />uygulamaları.</h2><Link className="text-link" to="/uygulamalar">Bütün uygulamalar <Ok /></Link></div><div className="compact-apps reveal">{uygulamalar.filter(a => !oncelik.includes(a.id)).map(app => <UygulamaSatiri app={app} key={app.id} />)}</div></div></section>
+    <section id="mobil" className="section shell mobile-section" aria-labelledby="mobil-baslik"><div className="section-head reveal"><p className="eyebrow">TELEFON VE TABLET</p><h2 id="mobil-baslik">Mobilde de LifeOS.</h2></div><div className="mobile-apps">{mobil.filter(Boolean).map(app => {const image = app.ekran_goruntuleri.find(g => g.telefon);return image && <article className="mobile-app reveal" key={app.id}><div><Ikon src={app.ikon} ad={app.ad} /><h3>{app.ad}</h3><p>{app.id === 'lifeos-kupler' ? 'Küplerin oyun ve bulmacalarını telefonunda veya tabletinde oyna.' : 'Folio’nun mobil ana sayfasını ve ajandasını incele.'}</p><Link className="text-link" to={uygulamaYolu(app.id)}>Mobil görünümler <Ok /></Link></div><Ekran src={image.dosya} ad={image.alt} telefon /></article>;})}</div></section>
+    <section id="indir" className="download shell reveal" aria-labelledby="indir-baslik"><h2 id="indir-baslik">Masaüstüne<br />LifeOS’u getir.</h2><p>Standart ve Avukat kurulum seçeneklerini incele.</p><Link className="button" to="/indir">İndirme ve kurulum <Ok yon="asagi" /></Link></section>
+    <section className="section shell faq" aria-labelledby="sss-baslik"><div className="section-head"><p className="eyebrow">SIK SORULANLAR</p><h2 id="sss-baslik">Aklında kalanlar.</h2></div><div><details><summary>Standart ve Avukat kurulumunun farkı ne?</summary><p>Standart kurulumda belge işleri için LifeOS Ofis, Avukat kurulumunda ise Folio yer alır. Avukat profili UYAP Editör, Adalet e-İmza, Akia ve Java araçlarını da kapsar.</p></details><details><summary>Her uygulama ilk açılışta hazır mı?</summary><p>Kurulum kalıbında olmayan uygulamalar ilk açılışta internet bağlantısıyla kurulur. Durumu Karşılama’dan izleyebilirsin.</p></details><details><summary>LifeOS TV kanal veya film içeriyor mu?</summary><p>Hayır. Kendi Xtream Codes hesabını veya M3U listeni kullanırsın; LifeOS TV içerik sağlayıcısı değildir.</p></details><details><summary>Görünümü değiştirebilir miyim?</summary><p><Link to="/ayarlar">Ayarlar’dan</Link> Manzara, Sistem veya Gece temasını, hareket tercihini ve yazı boyutunu seçebilirsin.</p></details></div></section>
+  </>;
+}

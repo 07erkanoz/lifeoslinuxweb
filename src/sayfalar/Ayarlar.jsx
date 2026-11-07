@@ -1,0 +1,13 @@
+import { Meta } from '../bilesenler/Ortak.jsx';
+import { dosyaYolu } from '../veri/index.js';
+import { useTema } from '../tema/TemaContext.jsx';
+
+const temalar = [
+  ['manzara', 'Manzara', 'Türkiye manzaraları üzerinde sıcak, yüzen bir masaüstü.'],
+  ['sistem', 'Sistem', 'LifeOS’un açık lavanta yüzeyleri ve sakin katmanları.'],
+  ['gece', 'Gece', 'Koyu sahneler, ince ışık ve öne çıkan ekranlar.'],
+];
+export default function Ayarlar() {
+  const { tema, temaAdi, setTema, otomatik, hareket, setHareket, yazi, setYazi } = useTema();
+  return <section className="shell page settings-page"><Meta baslik="Görünüm ayarları" aciklama="Manzara, Sistem ve Gece temalarını seç; hareketi ve yazı boyutunu kendine göre ayarla." /><p className="eyebrow">GÖRÜNÜM VE OKUMA</p><h1>Senin<br />görünümün.</h1><p className="page-lead">Üç ayrı tasarım dili. Aynı LifeOS içeriği.</p><fieldset className="theme-options"><legend>Tema</legend><div className="theme-cards">{temalar.map(([id, ad, aciklama]) => <label className={`theme-card ${tema === id ? 'selected' : ''}`} key={id}><input type="radio" name="tema" value={id} checked={tema === id} onChange={() => setTema(id)} /><span className={`theme-preview preview-${id}`}><span className="preview-title">LifeOS Linux.</span><img src={dosyaYolu(`/img/tasarim/masaustu-${id === 'gece' ? 'gece' : 'gun'}.png`)} alt={`${ad} temasının masaüstü önizlemesi`} loading="lazy" /></span><span className="theme-card-name">{ad}{tema === id && <span>Seçili</span>}</span><span className="theme-card-description">{aciklama}</span></label>)}</div></fieldset><div className="theme-default"><p role="status">{otomatik ? `Sistem tercihine göre ${temaAdi} kullanılıyor.` : `${temaAdi} teması seçili.`}</p>{!otomatik && <button type="button" className="plain-button" onClick={() => setTema(null)}>Sistem tercihine dön</button>}</div><div className="reading-settings"><section><h2>Hareket</h2><p>Geçişleri ve kaydırma hareketlerini kendine göre ayarla.</p><label className="select-label">Hareket tercihi<select value={hareket} onChange={e => setHareket(e.target.value)}><option value="sistem">Sistem tercihini kullan</option><option value="azalt">Hareketi azalt</option><option value="tam">Hareketleri göster</option></select></label></section><section><h2>Yazı boyutu</h2><p>Metinleri daha rahat okuyacağın boyutta görüntüle.</p><fieldset className="font-options"><legend>Yazı boyutunu seç</legend>{[['normal', 'Normal'], ['buyuk', 'Büyük']].map(([id, ad]) => <label key={id}><input type="radio" name="yazi" checked={yazi === id} value={id} onChange={() => setYazi(id)} />{ad}</label>)}</fieldset></section></div></section>;
+}

@@ -1,0 +1,87 @@
+{
+  "varliklar": {
+    "masaustu-gun.png": {
+      "kaynak": "design/desktop/out/masaustu-denge-gun.png",
+      "sha256": "7850604f28f319182d0bc8e3d211d8c36b6f9840ba878815bb0c03f0a230ddfb"
+    },
+    "masaustu-gece.png": {
+      "kaynak": "design/desktop/out/masaustu-denge-night.png",
+      "sha256": "64b2e1986b56afbe28ac122b4082775bd1b8366a42ae6bb9ca8d7e3e54d53fb9"
+    },
+    "folio.webp": {
+      "kaynak": "catalog/media/folio-anasayfa.webp",
+      "sha256": "d5d330fffdaa8af264d3e48a5e5567e548a9d8029fe08f5f3935400986eb0bce"
+    },
+    "InterVariable.ttf": {
+      "kaynak": "public/fonts/InterVariable.ttf",
+      "sha256": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf"
+    },
+    "LICENSE-Inter.txt": {
+      "kaynak": "public/fonts/LICENSE-Inter.txt",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    "logo.svg": {
+      "kaynak": "design/branding/lifeos-symbol.svg",
+      "sha256": "3bf7fdf531a91c4435422b3f7c2b7ab1e68f6ef010b2a8b48d02620d351cc81c"
+    },
+    "logo-acik.svg": {
+      "kaynak": "design/branding/lifeos-symbol-ink.svg",
+      "sha256": "a7fb3a21111a006b5d55c7c5d759d2807fc6d2475b8a61a00da26ac69b7c2c6a"
+    },
+    "goreme.jpg": {
+      "kaynak": "/usr/share/wallpapers/LifeOS-Goreme/contents/images/1672x941.jpg",
+      "sha256": "2309731918b4f455dc2185997f2147493612b35c795ededed9a9aa9d7357212e"
+    },
+    "bogaz.jpg": {
+      "kaynak": "/usr/share/wallpapers/LifeOS-BogazMartilar/contents/images/3840x1867.jpg",
+      "sha256": "17032292ec031a0ce08a09100708d814bbafe69cef5c0de20cf432d92dbe45ed"
+    },
+    "pamukkale.jpg": {
+      "kaynak": "/usr/share/wallpapers/LifeOS-Pamukkale/contents/images/1672x941.jpg",
+      "sha256": "2b834fad492a3daf611e7ffd63a0e50bd7d18f868566899e329ba3913177020f"
+    },
+    "lifeos-ada.svg": {
+      "kaynak": "public/img/marka/lifeos-symbol.svg",
+      "sha256": "3bf7fdf531a91c4435422b3f7c2b7ab1e68f6ef010b2a8b48d02620d351cc81c"
+    },
+    "lifeos-manager.svg": {
+      "kaynak": "public/img/ikonlar/tr.com.lifeos.Yonetim.svg",
+      "sha256": "054c63c32c57ff53f32234918d6f0351674072728a57ad5147e4c05da6c06456"
+    },
+    "lifeos-konsol.svg": {
+      "kaynak": "public/img/ikonlar/tr.com.lifeos.Konsol.svg",
+      "sha256": "b91ff6f4b4f97e6e10b4502bd694d7173a62499353f0668f5bf31521127f3b88"
+    },
+    "lifeos-folio.png": {
+      "kaynak": "public/img/ikonlar/lifeos-folio.png",
+      "sha256": "adb268f804c897b1f8488e431861a623182693cd66e66d1f67a277f4b80c8c18"
+    },
+    "lifeos-ofis.png": {
+      "kaynak": "public/img/ikonlar/lifeos-ofis.png",
+      "sha256": "505e5ff056ca683f906530d3a5be00828ab9fe0b105ed915a531feca893f3fca"
+    },
+    "lifeos-yayin.svg": {
+      "kaynak": "public/img/ikonlar/tr.com.lifeos.Yayin.svg",
+      "sha256": "61923c3b39dc22bc46c801944a730cfefbe2df0de8b153ef8e9f982bdbfffb09"
+    },
+    "lifeos-store.svg": {
+      "kaynak": "public/img/ikonlar/tr.com.lifeos.Magaza.svg",
+      "sha256": "24545c242e99aacf355b2458bc9b7d55e025f12f9d3328b11b1818904d85b215"
+    },
+    "lifeos-kupler.png": {
+      "kaynak": "public/img/ikonlar/kupler-icon.png",
+      "sha256": "598bfe748d4764d05f9988f2f1b08e64c0a004701fba0664c93216192b4577da"
+    },
+    "lifeos-iptv-player.png": {
+      "kaynak": "public/img/ikonlar/lifeos-iptv.png",
+      "sha256": "55fbb0c296632a0997be37967848fdf046242246f89b367cd4e56c178f9bd4b4"
+    }
+  },
+  "icerik": [
+    "data/uygulamalar.json",
+    "catalog/installer.json",
+    "docs/kurulum.md",
+    "docs/ada.md"
+  ],
+  "not": "Üç yön aynı içerik ve aynı uygulama listesiyle karşılaştırılır. Ada örnek bildirim ve ajanda verisi içerir; kişisel veri kullanılmaz."
+}
